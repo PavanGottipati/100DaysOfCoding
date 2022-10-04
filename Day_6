@@ -1,0 +1,22 @@
+//Java Program on End Of File
+//"In computing, End Of File (commonly abbreviated EOF) is a condition in a computer operating system where no more data can be read from a data source.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sobj=new Scanner(System.in);
+        int i=1;
+        while(sobj.hasNext())
+        {
+            System.out.println(i+" "+sobj.nextLine());
+            i++;
+        }
+        sobj.close();
+    }
+}
