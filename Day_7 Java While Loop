@@ -1,1 +1,42 @@
+//Java program to check a given number is Palindrome number or not
+//Palindrome number is number in which after reversing that number we will get the same result
+import java.util.Scanner;
+class Palindrome{  
+    public static void main(String args[]){  
+     Scanner sc=new Scanner(System.in);
+     int r,sum=0;
+     System.out.println("Enter the value ");    
+     int n=sc.nextInt();//It is the number variable to be checked for palindrome  
+     
+     int temp=n;    
+     while(n>0){    
+      r=n%10;  //getting remainder  
+      sum=(sum*10)+r;    
+      n=n/10;    
+     }    
+     if(temp==sum)    
+      System.out.println("palindrome number ");    
+     else    
+      System.out.println("not palindrome");    
+   }  
+   }  
+
+HOW I SOLVED THIS:
+ Here I have Used Java while loop to perform the number reversing operation 
+ 
+EXPLANTION FOR TOPIC:
+Reversing a number means that the digit at the first position should be swapped with the last digit, and the second digit will be swapped with the second last digit,
+and so on till the middle element.
+
+POSSIBLE TEST CASES:
+1.To check whether the value is not equal to NULL
+2.If reverse of the number is same, then the number is a palindrome number.
+
+INPUT 1 : 121
+OUTPUT 1 : palindrome number
+
+INPUT 2 : 251
+OUTPUT 2 : not palindrome
+
+
 
