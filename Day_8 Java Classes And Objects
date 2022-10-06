@@ -1,0 +1,29 @@
+// Java Program for creating Classes and objects
+class A
+{
+   void printing()
+   {
+    System.out.println("Class A Method is executing");
+   }
+}
+public class JavaClassAndObject {
+    public static void main(String [] args)
+    {
+        A ob=new A();
+        ob.printing();
+    }
+}
+
+PROBLEM :
+Defining a class and create object for the class and then call the methods of that class
+
+HOW I SOLVED THIS :
+Here I have used the keyword "class" to create a class named "A".Then I have declared a method i.e., printing() which will print some text.
+Then in the Main method class I have created the object "ob" for the class A.
+Then I have called the printing() method with that object of class A.
+
+POSSIBLE TEST CASES :
+1)OUTPUT :
+Class A method is executing
+
+2)If the method or the class is not declared properly,then it will show error! 
