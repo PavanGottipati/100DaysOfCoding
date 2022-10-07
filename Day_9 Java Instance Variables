@@ -1,0 +1,73 @@
+//Java Program for reading and displaying of Student Details
+//Here I have used Instance variables for storing of student data like no,name,marks and grade
+import java.util.Scanner;
+class Student
+{
+    int sno;
+    String sname;
+    float marks;
+    String grade;
+    void getData()
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter student number ");
+        int sno=sc.nextInt();
+        System.out.println("Enter student name ");
+        String sname=sc.nextLine();
+        System.out.println("Enter student marks ");
+        float marks=sc.nextFloat();
+        System.out.println("Enter student grade ");
+        String grade=sc.next();
+        //Assigning values to the instance variables
+        this.sno=sno;
+        this.sname=sname;
+        this.marks=marks;
+        this.grade=grade;
+    }
+    void display()
+    {
+        System.out.println("The student details are ");
+        System.out.println("sno "+sno);
+        System.out.println("sname "+sname);
+        System.out.println("Marks "+marks);
+        System.out.println("Grade "+grade);
+    }
+}
+class InstanceVariables
+{
+    public static void main(String [] args)
+    {
+        Student s=new Student();
+        s.getData();
+        s.display();
+    }
+}
+
+PROBLEM :
+Take input of student details from the user and print the details of a student.
+
+HOW I SOLVED THIS:
+Here I have used instance variables concept in java for storing student data.
+Then I have initialized the values to the instance variables through getData().
+Then I am displaying those values using display().
+
+TEST CASES:
+INPUT 1:
+ 192012
+ pavan
+ 89.7
+ A
+OUTPUT 1:
+ Student details are
+ sno 192012
+ sname pavan
+ marks 89.7
+ Grade A
+ 
+INPUT 2:
+ 129281
+ pavan
+ pw
+ B
+OUTPUT 2:
+ Error   //in the place of marks we are initialising string value.
