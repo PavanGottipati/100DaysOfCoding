@@ -1,0 +1,77 @@
+//Java program for Taking input of employee and display the results 
+// By using constructor in java
+import java.util.Scanner;
+class Employee
+{
+  int empId;
+  String empName; //instance variables
+  float salary;
+  String address;
+  Employee(int empId,String empName,float salary,String address) //Constructor
+  {
+    this.empId=empId;
+    this.empName=empName;
+    this.salary=salary;         //initialization
+    this.address=address;
+  }
+  void display()
+  {
+    System.out.println();
+    System.out.println("**************************");
+    System.out.println("The Employee details are ");
+    System.out.println();
+    System.out.println("Employee Id is "+empId);
+    System.out.println("Name is "+empName);
+    System.out.println("Salary is "+salary);
+    System.out.println("Address is "+address);
+  }
+}
+public class JavaConstructor {
+    public static void main(String [] args)
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Please provide Employee details");
+      System.out.print("Id ");
+      int empId=sc.nextInt();
+      System.out.print("Name ");
+      String empName=sc.next();
+      System.out.print("Salary ");
+      float salary=sc.nextFloat();
+      System.out.print("Address ");
+      String address=sc.next();
+      Employee con=new Employee(empId,empName,salary,address);  //creating object for the Employee class (Constructor) class and sending parameters
+      con.display();
+    }
+}
+
+CONSTRUCTOR :
+A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. 
+It can be used to set initial values for object attributes. In Java, a constructor is a block of codes similar to the method.
+
+PROBLEM :
+Take input of Employee details from the user and display the results
+
+HOW I SOLVED THIS :
+Here I have used constructor concept for initialising the employee values to the instance variables declared in the class
+
+EXPLANATION FOR TOPIC :
+When declaring a object ,we can initialise the values to the instance variables of that class through constructor.
+Constructor name is same name as the class name.
+
+POSSIBLE TEST CASES :
+1.If we pass the same number and same data type values to the constructor,then it will initialise the values to the instance variables
+2.Otherwise, if we pass the mismatching data type values which are not related to instance variables,then it will throw error
+
+INPUT :
+19201
+pavan
+25000
+vijayawada
+
+OUTPUT :
+Employee details are
+********************
+Id 19201
+Name pavan
+Salary 25000.0
+Address vijayawada
