@@ -1,0 +1,40 @@
+PROBLEM :
+Initialise student details to the instance variables through constructor in Java and also Perform Constructor Overloading Operation.
+
+HOW I SOLVED THIS :
+->Here I have used Java Constructor Overloading Concept.
+->And initialising parameters to the instance variables through Constructor.
+
+EXPLANATION FOR THIS TOPIC :
+->Constructor Overloading in Java is a concept of defining multiple constructors of the same class and differentiating them with the parameters list.
+->And based on the arguements list, the corresponding constructor body is executed.
+->We can define any number of constructors for the same class.I.e., default constructor as well as parameterised constructor.
+
+POSSIBLE TEST CASES :
+In the given problem, 
+*********************************************
+Test case 1:
+Input :
+Default constructor 
+Output :
+Default constructor values 
+Student Id : 0
+Student name : null
+*********************************************
+Test case 2:
+Input :
+Parameterized constructor 
+192012
+pavan
+Output :
+Student Id : 192012
+Student name : pavan
+********************************************
+Test case 3:
+Input :
+Parameterized constructor with mismatch of datatypes
+19201.23
+pavan
+Output :
+Error
+**********************************************
