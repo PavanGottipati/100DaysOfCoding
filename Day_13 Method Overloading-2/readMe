@@ -1,0 +1,39 @@
+METHOD OVERLOADING :
+"If a class has multiple methods having same name but different in parameters, it is known as Method Overloading."
+
+If we have to perform only one operation, having same name of the methods increases the readability of the program.
+Method Overloading is a concept of Polymorphism
+
+PROBLEM :
+Create a function called display and display all the details of Employee,Student and Department
+
+HOW I SOLVED THIS :
+Here I have used Method Overloading concept, and based on the person,I have differentiated those methods with the number of parameters.
+
+Test Case 1:
+INPUT PARAMETERS:
+ 101,"Computer Science"
+OUTPUT:
+ The Department Details are
+ Department number is 101
+ Department name is Computer Science
+ 
+Test Case 2:
+ INPUT PARAMETERS:
+  10064,"ravi Kumar",25000.00,98780
+ OUTPUT :
+  The Employee Details are
+  Employee number is 10064
+  Employee name is Ravi Kumar
+  Employee salary 25000.00
+  Employee Phone number is 98780
+   
+ Test Case 3:
+  INPUT PARAMETERS :
+   192012,"Pavan",98.3f
+  OUTPUT :
+   The Student Details are
+    Student number is 192012
+    Student name is pavan
+    Student marks are 98.3
+  
