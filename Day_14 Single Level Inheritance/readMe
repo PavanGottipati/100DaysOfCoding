@@ -1,0 +1,31 @@
+INHERITANCE:
+Inheritance is a mechanism wherein a new class is derived from an existing class. 
+In Java, classes may inherit or acquire the properties and methods of other classes. 
+A class derived from another class is called a subclass, 
+whereas the class from which a subclass is derived is called a superclass.
+
+SINGLE LEVEL INHERITANCE:
+Single inheritance can be defined as a derived class to inherit the basic methods (data members and variables) and behavior from a superclass.
+It’s a basic is-a relationship concept exists here. 
+Basically, java only uses a single inheritance as a subclass cannot extend more superclass.
+
+PROBLEM:
+To find the area if a Rectangle.
+
+HOW I SOLVED THIS:
+Here I have used Single Level Inheritance concept to implement area of Rectangle
+At first class Shape consists of two integer type data members which are length and breadth and this is also a Super or Parent class.
+Then another class Rectangle is a Subclass consists of one data member and one function.Data Member is area to store integer value and a function CalculateArea()
+
+TEST CASES:
+INPUT 1
+ length=10
+ breadth=20
+OUTPUT 2
+ Area of Rectangle is 300
+ 
+INPUT 2
+ length=15.7
+ breadth=20.4
+OUTPUT 2:
+ Error.Because The input is floating value.The instance variable can store integer values only.
