@@ -1,0 +1,41 @@
+ABSTRACTION :
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+
+ABSTRACT CLASS IN JAVA :
+A class which is declared with the abstract keyword is known as an abstract class in java.
+It can have abstract methods and non-abstract methods(method with the body)
+In java ,"Abstraction" is achieved through "abstract" keyword.
+
+PROBLEM :
+Find the given input number is Armstrong number or not
+
+ARMSTRONG NUMBER :
+Armstrong number is the number which itself is equal to "Sum of the Cubes of the Individual Digits in it".
+
+EXAMPLE :
+153 = (1)^3 + (5)^3 +(3)^3
+
+HOW I IMPLEMENTED THIS?
+Here I have used java Abstraction concept to implement this logic.
+At first I have declared one abstract class "Armstrong".In that class It must have declaration of method definition.So I have declared two methods "input()" and 
+"operation()" with abstract keyword.
+And I have declared one subclass names "CheckArmstrong" which inherits the "Abstrong" and in that subclass,I have implemented the logics of two methods.
+
+TEST CASES :
+Input 1:
+ 153
+Output 1:
+ 153 is an Armstrong Number
+ 
+Input 2:
+ -153
+Output 2:
+ -153 is not an Armstrong Number
+ 
+Input 3:
+ pavan
+Output 3:
+ Error.....!Input must be integer type only.
+
+
+ 
