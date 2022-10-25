@@ -1,0 +1,36 @@
+MULTILEVEL INHERITANCE :
+The multi-level inheritance includes the involvement of atleast two or more than two classes.One class inherits the features from a parent class and the newly created
+sub-class becomes the base class for another class.
+
+PROBLEM :
+Find the total marks of a student and display the student details.
+
+HOW I IMPLEMENTED THIS?
+Here I have used Multilevel Inheritance concept to implement the logic.
+Here the first class "Student" is a parent class and it contains two instance variables "sno" and "sname" which stores some data about student.
+Then I have created another class "Test" which inherits "Student" class and contains three instance variables which stores marks of three subjects.
+Then I have created another clas "Result" which inherits "Test" class.Then "Result" class can use "Student" and "Test" class properties also.
+
+TEST CASES :
+INPUT 1
+ sno 192012
+ sname pavan
+ m1 98
+ m2 89
+ m3 79
+ 
+OUTPUT 1
+ Student details are
+ Student Number 192012
+ Student Name pavan
+ Total Marks 266.00
+ 
+INPUT 2
+ sno 192012
+ sname pavan
+ m1 37.8
+ m2 sod
+ m3 98
+ 
+OUTPUT 2
+ Error...! The input is not matched with the datatype....
