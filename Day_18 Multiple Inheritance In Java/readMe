@@ -1,0 +1,27 @@
+MULTIPLE INHERITANCE :
+Multiple inheritance in java is the capability of creating a single class with multiple superclasses.
+Unlike some other popular object oriented programming languages like C++, java doesn't provide support for multiple inheritance in classes.
+We can implement multiple inheritance in java through interface concept.
+In multiple inheritance, One class inherit the properties of two classes at the same time.
+
+PROBLEM :
+The price of the Harddisk is RS 3500/-.The customer wants to purchase n number of Harddisks.Then write a java program to calculate the total bill which has to be paid 
+by the customer and display the details.
+
+HOW I IMPLEMENTED THIS?
+Here I have used Multiple Inheritance concept and in that I have included Interface concept to implement the logic and to get more security for the data.
+At first I have created a class Customer and included customer details in it.
+An interface "Item" and in that I have included item name and declaration of one method "bill()".
+Then I have created one class "Sales" and it inherits Customer class and Item interface at the same time.
+Then I have implemented the logic of bill() in tha Sales class.
+That bill() calculates the total bill amount (number of products * price)
+
+TEST CASE
+*********
+INPUT
+ cname Pavan
+ phno 894398
+ noItems 5
+OUTPUT
+ The Billing details are
+ Pavan 894398 Harddisk 17500.0
