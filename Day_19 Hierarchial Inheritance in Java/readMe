@@ -1,0 +1,36 @@
+HIERARCHIAL INHERITANCE :
+We already know that "Hierarchical inheritance" occurs when multiple child classes inherit the methods and properties of the same parent class.
+This simply means we have only one superclass and multiple sub-classes in hierarchical inheritance in Java.
+
+PROBLEM :
+Initialise the values to the Account holder and withdraw somw money from Savings account and calculate the rate of interest on amount in Fixed account.
+And display the results.
+
+HOW I IMPLEMENTED THIS :
+Here I have used Java Hierarchial Inheritance concept to implement the logic.
+At first I have created one class "Account" and it contains account number and name of the account holder.And this is the Super class.
+Then I have created one another class "Savings" which inherits the "Account" class.It has one method "withdraw()" to debit money from the customer account.
+And also I have created one another class "Fixed" inherits the "Account" class and it has one method "interest()" to calculate the interest on money in Fixed Account.
+
+TEST CASE
+ INPUT 
+   Enter account number 298327
+   Enter account holder number Pavan
+   Enter the balance in Savings Account 5000
+   Enter the amount in Fixed Account 7000
+ OUTPUT
+   Enter the amount to be withdrawn 1000
+   
+   After withdrawn, the account details are
+   -------------------------------------------
+   298327 Pavan 4000.0
+   -------------------------------------------
+   
+   
+   The interest on 7000.0 is 840.0
+   The account details after adding interset about 6 rate of interest for 2 years of time is
+   -----------------------------------
+   298327 Pavan 7840.0
+   -----------------------------------
+   
+    
