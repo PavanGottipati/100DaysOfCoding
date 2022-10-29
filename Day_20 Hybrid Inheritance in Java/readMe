@@ -1,0 +1,47 @@
+HYBRID INHERITANCE :
+Hybrid Inheritance is the combination of two or more types of Inheritances.
+Again Hybrid Inheritance is implemented in Java through Interface.
+class A will be acting as the Parent for class B & class C.And also class B & class C will be acting as Parent for class D.
+
+PROBLEM :
+Write a Java Program to take input from the user of Student details like number and name.Then as part of academics,take three subjects marks and find total.
+And also as a part of Sports,take grade and display all the results.
+
+HOW I IMPLEMENTED THIS :
+Here I have used Java Hybrid Inheritance concept to implement the logic.
+At first I have created one class "Student" and it contains two data members of student number and name.
+Then I have created another class "Test" and it inherits "Student" and also it contains the marks of three subjects of student.
+Then I have created one interface "Sports" and it contains the grade of a student in sports and one method "showGrade()" to display the grade.
+At last I have created one class "Results" which inherits class "Test" and implements the interface "Sports" and it contains "show()" method to calculate the
+total marks and display them.
+
+TEST CASE:
+  INPUT
+    Enter the details of a Student
+    Enter Student Roll Number
+    192012
+    Enter student name
+    Pavan
+    Enter Student marks of Three Subjects
+    Enter marks in Maths
+    98
+    Enter marks in Computer Science
+    99
+    Enter marks in Statistics
+    79
+  OUTPUT
+    The Academic Details of Student are
+    -----------------------------------
+    sno 192012
+    sname Pavan
+    Total Marks 276.0
+    -----------------------------------
+
+
+    The Sports Grade of a Student are
+    ---------------------------------
+    sno 192012
+    sname Pavan
+    Grade A
+    ---------------------------------
+    
