@@ -1,0 +1,38 @@
+ARRAYS IN JAVA :
+An array is a collection of elements that are ordered,fixed size and stores unique elements.
+
+PROBLEM ;
+Read elements into array and display them.
+
+HOW I SOLVED THIS :
+First take array size and declare an array 'a' and initialize the size.
+Then read elements into array in the data type in which the array is declared.
+After insertion,Display the results.
+
+TEST CASES :
+  INPUT 1
+    Array size 5
+    Array type int
+    3
+    7
+    2
+    9
+    7
+  OUTPUT 1
+    After insertion,the elements in the array are
+     3
+     7
+     2
+     9
+     7
+     
+   INPUT 2
+     Array size 5
+     Array type int
+     4
+     8
+     2
+     9
+     p
+   OUTPUT 2
+     Error... It is an integer type array.It can store integer values only.
