@@ -1,0 +1,44 @@
+LINEAR SEARCH :
+A linear search is the simplest method of searching a data set. 
+Starting at the beginning of the data set, each item of data is examined until a match is made.
+Once the item is found, the search ends. If there is no match, the algorithm must deal with this.
+If there is no match till last element,then the element is not present in the dataset.
+
+PROBLEM :
+Given an array of elements, and search the key element in the sequence.
+
+HOW I IMPLEMENTED THIS?
+Here I have implemented Linear Search Algorithm to perform the searching Operation from starting to ending in the sequence.
+If the element forund in the array,then the remaining operations are skipped and it return true (Means the element present in the array).
+Otherwise,it returns false (Means the element not present in the array).
+
+TEST CASES 1:
+ First check the array is declared or not.And also the elements are inserted or not.
+ If there is nothing,then it throws error.
+ 
+TEST CASE 2:
+ 
+ Enter array size
+ 5
+ Enter elements into array
+ 3 
+ 7
+ 9
+ 2
+ 6
+ Enter key element to search
+ 9
+ true
+
+TEST CASE 3:
+Enter array size
+5
+Enter elements into array
+3
+7
+9
+2
+6
+Enter key element to search
+8
+false
