@@ -1,0 +1,64 @@
+PROBLEM :
+Search for an element in the array which is in sorted order by considering any half interval in the array.
+
+HOW I SOLVED THIS?
+Here I have implemented Binary Search Algorithm to perform the operation.
+Because,the given array is in sorted order and the restriction is to perform the operation in half interval of the array.
+
+BINARY SEARCH ALGORITHM :
+Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half.
+
+STEPS :
+Begin with the mid element of the whole array as a search key.
+If the value of the search key is equal to the item then return an index of the search key.
+Or if the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.
+Otherwise, narrow it to the upper half.
+Repeatedly check from the second point until the value is found or the interval is empty.
+
+If the element is found,then it returns the actual position of that element in the array.'
+If the element is not found,then it return 0.
+
+TEST CASES :
+INUT 1:
+  12
+  14
+  16
+  18
+  19
+  Target = 18
+OUTPUT 1:
+  4
+  
+ INPUT 2:
+   12
+   14
+   16
+   18
+   19
+   Target = 15
+ OUTPUT 2:
+   0
+   
+ INPUT 3:
+   3
+   8
+   1
+   4
+   2
+   Target = 2
+ OUTPUT 3:
+   0
+   
+INPUT 4:
+   3
+   8
+   1
+   4
+   2
+   Target = 7
+OUTPUT 4:
+   0
+   
+In the Test case 3,the input given is not in Sorted order,Then if Our target is some value present in the array,but it returns 0(not found).
+At some cases,it may occurs.
+ 
