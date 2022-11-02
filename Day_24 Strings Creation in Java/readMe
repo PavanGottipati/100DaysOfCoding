@@ -1,0 +1,11 @@
+STRING :
+String in java is a object that represents the sequence of characters kind of word or sentence.
+
+String is a class in Java available in java.lang package create and manipulate the String objects,So we can say that String is a reference type not a primitive type.
+
+We can create a String as a "literal" which is known as intern string or we can create by using "new" keyword as an "Object".
+
+Here I have implemented both the types.
+
+By going through String literals,it returns the string value in string pool which is present in Heap Memory.
+By going through new keyword, it always create a new object in Heap Memory.
