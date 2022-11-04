@@ -1,0 +1,33 @@
+PROBLEM :
+Find or Count the number of occurrences of a letter in a given String link.
+
+HOW I IMPLEMENTED THIS?
+Here I have first take an input a string
+Then I have used split(" ") function with space as a parameter to split each word in a string seperately.
+After seperation, the words are stored in the String array.
+Then for every word element in the String array, I have used contains("letter") to check whether "e" is there in the word or not.
+If contains("e") returns true,then count is incremented by 1.
+Otherwise,there is no increment in count value.
+At final, count contains the number that "e" is there in the string.
+
+TEST CASE 1:
+ INPUT 1:
+  Enter a String line
+  Hello people.Do you know one thing,England won the match.
+ OUTPUT 1:
+  The no of occurances is 4
+  
+TEST CASE 2:
+ INPUT 2:
+  Enter a String line
+                             //no input is given
+ OUTPUT 2:
+  The no of occurrences is 0
+  
+TEST CASE 3:
+ INPUT 3:
+  Enter a string line
+  " "                         //One one space is given as input
+ 
+ OUTPUT 3:
+  The no of occurences is 0
