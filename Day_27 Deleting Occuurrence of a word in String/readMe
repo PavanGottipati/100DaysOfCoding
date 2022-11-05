@@ -1,0 +1,25 @@
+PROBLEM :
+Delete the Occurrences of a word "the" in a String line and display the results.
+
+HOW I IMPLEMENTED THIS :
+Here at first,I have taken input of a line.
+Then I have used split(" ") function to split the given line based on space.This split("") is member of String class.
+Then I have stored these words in an String array.
+Then for every word in the array,I have written a function equals("the") to check the word is equal to "the".
+If yes,in this place I am updating it as {""} where it effects in the array.Because Strings are immutable in Java.
+Then I displayed the elements in the array.
+In the result,the string is displayed without "the" word.
+
+TEST CASE 1:
+ INPUT 1:
+  Enter a line
+  The development and support sentences act as the body of the paragraph.
+ OUTPUT 1:
+  The development and support sentences act as  body of  paragraph.           // 'the' is eliminated. 
+  
+TEST CASE 2:
+ INPUT 2:
+        //null string
+ OUTPUT 2:
+         //no output
+ 
