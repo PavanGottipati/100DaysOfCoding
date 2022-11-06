@@ -1,0 +1,28 @@
+PROBLEM : Delete the Occurrences of the Vowels (a,e,i,o,u,A,E,I,O,U) in a given String and display them.
+
+HOW I IMPLEMENTED THIS :
+Here at first take the input.
+Then Vowels are (a,e,i,o,u,A,E,I,O,U).
+So I have used replace() function to replace the occurrence of vowel and make them "".
+It Replaces each substring of this string that matches the given regular expression with the given replacement.
+
+An invocation of this method of the form str.replaceAll(regex, repl) yields exactly the same result as the expression
+
+replaceAll("[aeiouAEIOU]","")
+then the vowels are replaced with "".
+
+TEST CASE 1 :
+ INPUT :
+   Enter a Line
+   Hello all.How are yoy all? Is there any problem to you
+ OUTPUT :
+   After deleting the vowels
+   Hll ll.Hw r yy ll? s thr ny prblm t y
+   
+TEST CASE 2:
+  INPUT :
+           //no input
+  OUTPUT :
+    After deleting the vowels
+    
+    
