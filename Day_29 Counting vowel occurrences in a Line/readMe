@@ -1,0 +1,24 @@
+PROBLEM :
+Count the number of occurrences of vowels ina line and display the results.
+
+HOW I IMPLEMENTED THIS :
+Here at first,take one input in the form of String.
+take ecount initial value as 0.
+Then take each and every letter in a string and compare with the vowels ('a','e','i','o','u','A','E','I','O','U')
+If they are equal,then increment the count by 1.
+Otherwise skip the incrementation and move to next character.
+Hence if we reach the last element,we check the condition and increment the count by one and break from the loop.
+
+TEST CASE 1:
+ INPUT :
+   Enter a line
+   Hello all how are you people
+ OUTPUT :
+   The number of vowels present in the line are 11
+   
+TEST CASE 2:
+ INPUT :
+   Enter a line
+                  //no input or empty
+ OUTPUT :
+   The number of vowels present in the line are 0
