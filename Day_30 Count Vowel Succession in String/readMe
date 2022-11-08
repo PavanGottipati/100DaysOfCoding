@@ -1,0 +1,47 @@
+PROBLEM :
+Write a program to count the number of occurrences of any two vowels in succession in a line of text.
+For example,in the sentence
+"Please read this application and give me gratuity"
+The number of vowel successions are 3
+such a occurrences are ea,ea,ui
+
+HOW I IMPLEMENTED THIS?
+Here First take input and then split that input by using split(" ") function by differentiating them with space.
+Then store the words in a array.
+Then for every word in iteration,make the letter and next to that letter as string in tha word.
+Compare that string with the vowels successions ("aa","ae","ai","ao","au","ea","ee","ei","eo","eu","ia","ie","ii","io","iu","oa","oe","oi","oo","ou","ua","ue","ui","uo","uu")
+If they are equal increment count by 1.
+Else,no increment in count.
+
+After the end,count value is returned.
+
+TEST CASE 1:
+  INPUT :
+    Enter a line
+    hello all.how are you
+  OUTPUT : 
+    ou
+    The no of vowel successions are 1
+    
+TEST CASE 2:
+  INPUT :
+    Enter a line
+    Paragraphs are medium-sized units of writing, longer than sentences, but shorter than sections, chapters, or entire works. Because they connect the "small" ideas of individual sentences to a "bigger" idea, paragraph structure is essential to any writing for organization, flow, and comprehension.
+  OUTPUT :
+    iu
+    io
+    au
+    ea
+    ua
+    ea
+    ia
+    io
+    io
+    The no of vowel successions are 9
+    
+ TEST CASE 3:
+   INPUT :
+     Enter a line
+                 //empty String
+   OUTPUT :
+     The no of vowel successions are 0
