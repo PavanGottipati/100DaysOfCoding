@@ -1,0 +1,36 @@
+PROBLEM :
+Write a Java program to convert astring from Lower to Upper case and Vice Versa.
+
+HOW I IMPLEMENTED THIS?
+Here first take the input.
+Then In Java,String is a in-built class which is present in java.lang package.
+And that String class has many in-built functions which are used for String handling Operations.
+Then, toUpperCase() is a member function of String class which converts the lowercase string to higher case.
+This method returns the Uppercase of the String.
+And also, toLowerCase() is also a member of String class which converts the highercase string to lower case.
+This method returns the Lowercase of the String.
+
+TEST CASE 1:
+   Enter a String to convert into Upper Case
+   I/P  RAVI KUMAR
+   O/P  RAVI KUMAR
+   
+   Enter a String to convert into Lower Case
+   I/P  ravi kumar
+   O/P  ravi kumar
+
+TEST CASE 2:
+   Enter a String to convert into Upper Case
+   I/P RAVI KUMAR
+   O/P RAVI KUMAR
+   Enter a String to convert into Lower Case
+   I/P ravi kumar
+   O/P ravi kumar
+
+TEST CASE 3:
+   Enter a String to convert into Upper Case
+   I/P                                        //Null string
+
+   Enter a String to convert into Lower Case
+   O/P                                        //No Output
+
