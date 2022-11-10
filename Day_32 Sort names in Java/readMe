@@ -1,0 +1,36 @@
+PROBLEM :
+Write a program to sort a set of names stored in an array in alphabetical order.
+
+HOW I IMPLEMENTED THIS :
+Here first take some names as an input in an array.
+Then ,in java Arrays there is a pre-defined function sort() which sorts the elements in the array in ascending order.
+Then after sorting,convert them into String array by using Arrays.toString() method.
+
+TEST CASE 1
+  INPUT :
+    Enter array size
+    5
+    Enter the names in small letters
+    pavan
+    avinash
+    devansh
+    tarun
+    pavani
+  OUTPUT :
+    [avinash, devansh, pavan, pavani, tarun]
+    
+TEST CASE 2:
+  INPUT :
+    Enter array size
+    0                  //If there is no input or the input is null
+  OUTPUT :
+    []
+
+TEST CASE 3:
+  INPUT :
+    Enter array size
+    1                                //Only one name is given as input to sort
+    Enter the names in small letters
+    praveen
+  OUTPUT :
+    [praveen]
