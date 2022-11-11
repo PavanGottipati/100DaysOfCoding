@@ -1,0 +1,40 @@
+PROBLEM :
+Write a program that will read a full name of person and abbreviate the first, second or middle by their first letter except the last name.
+
+HOW I HAVE IMPLEMENTED THIS?
+First take one full name and split them by using split(" ") by using space " ".
+Then store those words in an array.
+Then For every word in an array except last index element,take the First letter by using charAt() function and store it in new string variable.
+Then if we reach the last index,directly append the last element to the new string variable.
+Then we get the required output.
+
+TEST CASE 1 :
+  INPUT :
+    Enter the Full Name
+    Gottipati Venkata Naga Pavan
+  OUTPUT :
+    G V N Pavan
+    
+    
+TEST CASE 2 :
+  INPUT :
+    Enter the Full Name
+    Gottipati Pavan
+  OUTPUT :
+    G Pavan
+    
+    
+TEST CASE 3 :
+  INPUT :
+    Enter the Full Name
+    Pavan
+  OUTPUT :
+    Pavan
+    
+    
+TEST CASE 4:
+  INPUT :      //no input
+    Enter the Full Name
+    
+  OUTPUT :
+  
