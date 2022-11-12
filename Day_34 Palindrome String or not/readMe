@@ -1,0 +1,32 @@
+PROBLEM :
+Write a java program to find the given string is palindrome string or not.
+
+HOW I IMPLEMENTED THIS?
+Here first take the input String.
+Then read one empty string variable.
+Then in the input String,take one letter by using charAt() dunction which is a member of String class.
+Then store that letter in one character variable and append them in front of the new empty string.
+Do the process upto the last element.
+
+TEST CASE 1:
+  INPUT :
+    Enter a string in small letters
+    divid
+  OUTPUT :
+    The String is Palindrome
+    
+    
+TEST CASE 2:
+  INPUT :
+    Enter a string in small letters
+    pavan
+  OUTPUT :
+    The String is not a Palindrome.
+    
+TEST CASE 3:
+  INPUT :
+    Enter a string in small letters
+    DIVID
+  OUTPUT :
+    The string is not a Palindrome.
+    
