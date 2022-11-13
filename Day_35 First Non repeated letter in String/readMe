@@ -1,0 +1,32 @@
+PROBLEM :
+Write a java program to find a first non repeating letter in the String.
+
+HOW I IMPLEMENTED THIS ?
+Read a String.Then take first letter and compare with all letters from last.
+If it equals to any letter except itself at its position in the string then unique must be false.
+If it not equals to the other letters in the String, then unique is true.
+The loop is terminated and it print the letter.
+The printed letter is the first element in the string which is not repeadted in the String.
+
+TEST CASE 1:
+  INPUT :
+    Enter a String :
+    pavan
+  OUTPUT :
+    The given string is : pavan
+    The first non repeated character in String is : p
+    
+TEST CASE 2:
+  INPUT :
+    Enter a String :
+    ravikumar
+  OUTPUT :
+    The given string is : ravikumar
+    The first non repeated character in String is : i
+    
+TEST CASE 3:
+  INPUT :
+    Enter a String :
+    ppbbllee
+  OUTPUT :
+    The given string is : ppbbllee     //In this string all letters are repeated more than one time. So no output
