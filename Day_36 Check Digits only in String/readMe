@@ -1,0 +1,52 @@
+PROBLEM :
+Write a java program to check whether the String contains only digits or not.
+
+HOW I IMPLEMENTED THIS?
+Here first read a String.
+Convert the String into number by using wrapper classes and store the value in one variable.
+If it is converted,then we can say that the string contains digits only.
+If not,The string contains non digits also.
+Apply the conversion ligic in try block to handle the number format exception.
+
+WRAPPER CLASSES IN JAVA :
+The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
+They are :
+Boolean
+Byte
+char Character
+boplean Boolean
+char	Character
+byte	Byte
+short	Short
+int	Integer
+long	Long
+float	Float
+double	Double
+
+TEST CASE 1:
+  INPUT :
+    Enter a String with all numbers
+    11111
+  OUTPUT :
+    This is Digit Only String ::11111
+    
+TEST CASE 2:
+  INPUT :
+    Enter a String with all numbers
+    267728
+  OUTPUT :
+    This is Digit Only String ::267728
+    
+TEST CASE 3:
+  INPUT :
+    Enter a String with all numbers
+    3687hdK73
+  OUTPUT :
+    This is Non Digit Only String ::3687hdK73
+    
+TEST CASE 4:
+  INPUT :
+    Enter a String with all numbers
+    0000000
+  OUTPUT :
+    This is Digit Only String ::0000000
