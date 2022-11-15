@@ -1,0 +1,52 @@
+
+PROBLEM : 
+Print the Pyramid pattern *
+
+HOW I IMPLEMENTED THIS :
+Here first take input of row size.
+Then for every row run a loop1 i from 0 to n-1 and that is outer loop.
+Then run an inner loop2 j from n-i to 2 for empty space inside loop1 and print the empty space.
+After loop2 completion,run loop3 from 0 to i for number of columns and print * in its body.
+
+TEST CASE 1:
+INPUT :
+Enter number of rows
+5
+OUTPUT :
+*
+* *
+* * *
+* * * *
+* * * * *  
+
+TEST CASE 2:
+INPUT :
+Enter number of rows
+3
+OUTPUT :
+*
+* *
+* * *
+
+TEST CASE 3:
+INPUT :
+Enter number of rows
+2
+OUTPUT :
+*
+* *
+
+TEST CASE 4:
+INPUT :
+Enter number of rows
+1
+OUTPUT :
+*
+
+TEST CASE 5:
+INPUT :
+Enter number of rows
+0
+OUTPUT :
+No output
+
