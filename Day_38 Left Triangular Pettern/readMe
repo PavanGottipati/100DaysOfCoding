@@ -1,0 +1,59 @@
+PROBLEM :
+Java program to print the left triangular pattern using *
+
+HOW I IMPLEMENTED THIS ?
+First take the input of number of rows.
+Then start a outer loop, loop1 for rows.
+loop1 runs from 0 to rows-1 times.
+Inside the loop1,
+->declare loop2 for space
+->loop2 starts from j=2*(rows-1) to 0 by decrementing j as -1.
+->After loop2 termination, declare inner loop, i.e., loop3 inside loop1 and outside loop2.
+->loop3 runs from 0 to i for columns.
+->After loop3 termination, a new line printed and control moves to loop1.
+
+After loop1 termination, the output will be a left triangular matrix.
+
+TEST CASE 1:
+  INPUT :
+    Enter row size
+    6
+  OUTPUT :
+             *
+           * *
+         * * *
+       * * * *
+     * * * * *
+   * * * * * *
+
+TEST CASE 2:
+  INPUT :
+    Enter row size
+    4
+  OUTPUT :
+         *
+       * *
+     * * *
+   * * * *
+
+TEST CASE 3:
+  INPUT :
+    Enter row size
+    2
+  OUTPUT :
+     *
+   * *
+
+TEST CASE 4:
+  INPUT :
+    Enter row size
+    1
+  OUTPUT :
+    *
+
+TEST CASE 5:
+  INPUT :
+    Enter row size
+    0
+  OUTPUT :
+            //No output
