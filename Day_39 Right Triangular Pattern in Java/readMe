@@ -1,0 +1,53 @@
+PROBLEM :
+Write a Java Program to print the right triangular pattern with *
+
+HOW I IMPLEMENTED THIS ?
+Here first vtake the number of rows as input.
+Then based on the number of rows, the output is obtained.
+->Then run a outer loop, loop1 take 'i' from 0 to row-1 times.
+-->Inside loop1, declare loop2 take 'j' from 0 to i,
+--->For every true condition (j>=i) print * on that line.
+-->If the loop2 terminates, print a new line and proceed for loop1.
+--After the loop1 termination, we will get the exact pattern in the form of right triangular based on number of rows.
+
+TEST CASE 1:
+  INPUT :
+    Enter number of rows
+    5
+  OUTPUT :
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    
+TEST CASE 2:
+  INPUT :
+    Enter number of rows
+    3
+  OUTPUT :
+    *
+    * *
+    * * *
+    
+TEST CASE 3:
+  INPUT :
+    Enter number of rows
+    2
+  OUTPUT :
+    *
+    * *
+    
+TEST CASE 4:
+  INPUT :
+    Enter number of rows
+    1
+  OUTPUT :
+    *
+    
+TEST CASE 5:
+  INPUT :
+    Enter number of rows
+    0
+  OUTPUT :
+           //No output
