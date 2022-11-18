@@ -1,0 +1,50 @@
+PROBLEM :
+Write a java program to print the down ward triangle using *
+
+HOW I IMPLEMENTED THIS ?
+Here first read the input from the user (number of rows)
+Then run a loop (loop1) for rows
+-->In this,loop1 runs from i=row-1 to i=0.
+Then inside loop1, declare another loop (loop2) for columns.
+-->loop2 runs from j=0 to i
+-->for every condition gets true, j<=i print * in a same line inside loop2.
+If loop2 get terminated, then print a new line.
+Follow the process untill loop1 terminated.After this, we will get Downward Triangle pattern.
+
+TEST CASE 1 :
+  INPUT :
+    Enter number of rows : 5
+  OUTPUT :
+    * * * * *
+    * * * *
+    * * *
+    * *
+    *
+    
+TEST CASE 2:
+  INPUT :
+    Enter number of rows : 3
+  OUTPUT :
+    * * *
+    * *
+    *
+    
+TEST CASE 3 :
+  INPUT :
+    Enter number of rows : 2
+  OUTPUT :
+    * *
+    *
+    
+    
+TEST CASE 4:
+  INPUT :
+    Enter number of rows : 1
+  OUTPUT :
+    *
+    
+TEST CASE 5 :
+  INPUT :
+    Enter number of rows : 0
+  OUTPUT :
+                   //No output
