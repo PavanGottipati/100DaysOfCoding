@@ -1,0 +1,51 @@
+PROBLEM :
+Write a java program to print the Reversed Pyramid Pattern with *
+
+HOW I IMPLEMENTED THIS :
+First take input for number of rows.
+Then run a loop (loop1) from i=0 to row-1.
+loop1 runs for rows.
+Inside loop1, define another loop (loop2) from j=0 to i
+--Then for every iteration, loop2 prints one space " " in the same line.
+After loop2 termination, difine a loop (loop3) inside loop1.
+-->loop3 runs from k=0 to rows-1-i.For ebery iteration in loop3, prints * and space " " in the same line.
+After loop3 termination, a new empty line is printed and control goes to loop1.
+Then the above procedures take place.
+After loop1 termination, we will get the expected Reversed Pyramid Pattern.
+
+TEST CASE 1:
+  INPUT :
+    Enter the number of rows : 5
+  OUTPUT :
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+     
+TEST CASE 2:
+  INPUT :
+    Enter the number of rows : 3
+  OUTPUT :
+ * * *
+  * *
+   *
+   
+TEST CASE 3:
+  INPUT :
+    Enter the number of rows : 2
+  OUTPUT :
+ * *
+  *
+  
+TEST CASE 4:
+  INPUT :
+    Enter the number of rows : 1
+  OUTPUT :
+ *
+ 
+TEST CASE 5:
+  INPUT :
+    Enter the number of rows : 0
+  OUTPUT :
+          // No output
