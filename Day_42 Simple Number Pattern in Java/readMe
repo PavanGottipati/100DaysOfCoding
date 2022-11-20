@@ -1,0 +1,59 @@
+PROBLEM :
+Write a java program to print the simple number pattern.
+Ex :
+1 
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+HOW I IMPLEMENTED THIS ?
+Here first I have taken input for number of rows.
+Then declare loop1 starts from i=0 to n-1 (rows)
+-->And for every new iteration in loop1, assign num=1.
+-->Inside loop1, Declare loop2 runs from j=0 to i
+-->Then for every correct condition, print 'num' value in the same line and then increment num by 1.
+After loop2 termination, again loop1 will get executed and above the same instructions executed.
+Then after termination of loop1, we will get the expexted Number pattern.
+
+TEST CASE 1:
+  INPUT :
+    Enter number of rows 5
+  OUTPUT :
+    The Pattern is
+    1
+    1 2
+    1 2 3
+    1 2 3 4
+    1 2 3 4 5
+    
+TEST CASE 2:
+  INPUT :
+    Enter number of rows 3
+  OUTPUT :
+    The Pattern is
+    1
+    1 2
+    1 2 3
+    
+TEST CASE 3 :
+  INPUT :
+    Enter number of rows 2
+  OUTPUT :
+    The Pattern is
+    1
+    1 2
+
+TEST CASE 4 :
+  INPUT :
+    Enter number of rows 1
+  OUTPUT :
+    The Pattern is
+    1
+
+TEST CASE 5:
+  INPUT :
+    Enter number of rows 0
+  OUTPUT :
+    The Pattern is
+                        // NO OUTPUT
