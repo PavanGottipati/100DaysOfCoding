@@ -1,0 +1,105 @@
+PROBLEM :
+Write a Java program that randomly picks an English alphabet (A-Z) and keeps asking the user to guess the alphabet until he/she has got it right.
+Also report the number of trials.
+
+HOW I IMPLEMENTED THIS ?
+Here I have implemented this scenario by using Random class in Java.
+
+Random class in Java :
+Random class is a member of java.util package.
+Random class is used to generate pseudo-random numbers in java. An instance of this class is thread-safe. 
+The instance of this class is however cryptographically insecure. This class provides various method calls to generate different random data types such as float, double, int.
+
+Constructors:
+Random(): Creates a new random number generator
+Random(long seed): Creates a new random number generator using a single long seed
+
+For Random class, first we have to create an object and call the nextInt(int x) by passing integer x as a parameter,
+then it will generate a random number within the range.
+
+Then, the generated random value is compared with the user input.If it matches, the execution terminated.If not ,it resume the flow.
+
+TEST CASE 1 :
+Enter a letter in Capital Letter from A-Z
+A
+Enter a letter in Capital Letter from A-Z
+B
+Enter a letter in Capital Letter from A-Z
+C
+Enter a letter in Capital Letter from A-Z
+D
+Enter a letter in Capital Letter from A-Z
+E
+Enter a letter in Capital Letter from A-Z
+F
+Enter a letter in Capital Letter from A-Z
+G
+Enter a letter in Capital Letter from A-Z
+H
+Enter a letter in Capital Letter from A-Z
+I
+Enter a letter in Capital Letter from A-Z
+J 
+Enter a letter in Capital Letter from A-Z
+K
+Enter a letter in Capital Letter from A-Z
+L
+Enter a letter in Capital Letter from A-Z
+M
+Enter a letter in Capital Letter from A-Z
+N
+Enter a letter in Capital Letter from A-Z
+O
+Enter a letter in Capital Letter from A-Z
+P
+Enter a letter in Capital Letter from A-Z
+Q
+Enter a letter in Capital Letter from A-Z
+R
+Enter a letter in Capital Letter from A-Z
+S
+Enter a letter in Capital Letter from A-Z
+T
+Enter a letter in Capital Letter from A-Z
+U
+Enter a letter in Capital Letter from A-Z
+V
+Enter a letter in Capital Letter from A-Z
+W
+You have guessed the character 23th time
+
+TEST CASE 2 :
+Enter a letter in Capital Letter from A-Z
+A
+Enter a letter in Capital Letter from A-Z
+B
+Enter a letter in Capital Letter from A-Z
+C
+Enter a letter in Capital Letter from A-Z
+D
+Enter a letter in Capital Letter from A-Z
+E
+Enter a letter in Capital Letter from A-Z
+F
+Enter a letter in Capital Letter from A-Z
+G
+Enter a letter in Capital Letter from A-Z
+H
+Enter a letter in Capital Letter from A-Z
+I
+Enter a letter in Capital Letter from A-Z
+J 
+Enter a letter in Capital Letter from A-Z
+K
+Enter a letter in Capital Letter from A-Z
+L
+Enter a letter in Capital Letter from A-Z
+M
+You have guessed the character at 13th time
+
+TEST CASE 3 :
+Enter a letter in Capital Letter from A-Z
+A
+Enter a letter in Capital Letter from A-Z
+B
+You have guessed the character at 2th time
