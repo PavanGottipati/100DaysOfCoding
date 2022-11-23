@@ -1,0 +1,34 @@
+PROBLEM :
+Income (G.)            Tax Rate (%)
+1-100000                   0
+100001-500000              10
+500001-1000000             20
+1000001-4000000            30
+above 4000000              37
+
+According to the table, if a person's income is 550000 G., there is no tax for the first 100000 G., 10% of the income in the range 100001-500000 are taxed,
+which equals 40,000 G., The last 50000 G. is taxed with the rate of 20% resulting 10000 G. Therefore, the total tax for this person is 60000 G.
+
+Write a method called tax() which returns the amount of tax associated with the income supplied as the only input to the method. Assume that there are no decimal points in any incomes.
+
+TEST CASE 1;
+  INPUT :
+    Enter the yearly income
+    550000
+  OUTPUT :
+    The total tax for the income is 60000 
+    
+TEST CASE 2:
+  INPUT :
+    Enter the yearly income
+    500000
+  OUTPUT :
+    The total tax for the income is 40000
+    
+TEST CASE 3 :
+  INPUT :
+    Enter the yearly income
+    100000
+  OUTPUT :
+    The total tax for the income is 0
+
