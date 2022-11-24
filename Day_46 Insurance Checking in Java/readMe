@@ -1,0 +1,48 @@
+PROBLEM :
+An Insurance company follows following rules to calculate premium.
+(1) If a person’s health is excellent and the person is between 25 and 35 years of age and lives in a city and is a male then the premium is Rs. 4 per thousand and his policy amount cannot exceed Rs. 2 lakhs.
+(2) If a person satisfies all the above conditions except that the sex is female then the premium is Rs. 3 per thousand and her policy amount cannot exceed Rs. 1 lakh.
+(3) If a person’s health is poor and the person is between 25 and 35 years of age and lives in a village and is a male then the premium is Rs. 6 per thousand and his policycannot exceed Rs. 10,000.
+(4) In all other cases the person is not insured.
+
+HOW I IMPLEMENTED THIS :
+Here first take the necessary details as input and follow the if else statements based on scenario.
+
+TEST CASE 1:
+   Enter name of person
+   Pavan
+   Enter the age of person
+   22
+   Enter the value based on your health condition
+   1:Excellent
+   2:Poor
+   1
+   Enter the region you are living
+   1:city
+   2:village
+   1
+   Enter your gender
+   1:Male
+   2:Female
+   1
+ OUTPUT :
+   The person is not insured
+   
+TEST CASE 2:
+  Enter name of person
+  Neela
+  Enter the age of person
+  26
+  Enter the value based on your health condition
+  1:Excellent
+  2:Poor
+  1
+  Enter the region you are living
+  1:city
+  2:village
+  1
+  Enter your gender
+  1:Male
+  2:Female
+  2
+The premium is Rs 3 per thousand and the policy cannot exceed Rs 1 Lakh
