@@ -1,0 +1,35 @@
+PROBLEM :
+The X and Y coordinates (X,Y) of N different points are entered through the keyboard as a user input.
+Write a program to find the distance oflast point from the first point (sum of distance between consecutive points).
+
+HOW I IMPLEMENTED THIS ?
+Here first take the number consecutive ponts.Then assign the number as the size of two single dimensional arrays X and Y.
+Then read the elements into two arrays paralelly in which first number into X array as abscissa and next number as ordinate into Y array.
+Then find the distance between the two points in two arrays with respective to each other and add the result for very iteration.
+
+Finally, we can get the sum value of N consecutive coordinate points distance.
+
+TEST CASE 1 :
+  INPUT :
+    Enter number of coornate points : 2
+      Enter coordinate of X1 : 4
+      Enter the coordinate of Y1 : 7
+      Enter coordinate of X2 : 1
+      Enter the coordinate of Y2 : 9
+  OUTPUT :
+      Sum is 3.605551275463989
+      
+TEST CASE 2 :
+  INPUT :
+    Enter number of coordinate points : 4
+     Enter coordinate of X1 : 4
+     Enter the coordinate of Y1 : 2
+     Enter coordinate of X2 : 8
+     Enter the coordinate of Y2 : 6
+     Enter coordinate of X3 : 1
+     Enter the coordinate of Y3 : 6
+     Enter coordinate of X4 : 7
+     Enter the coordinate of Y4 : 3
+  OUTPUT :
+    Sum is 19.36505818199175  
+      
