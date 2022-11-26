@@ -1,0 +1,62 @@
+PROBLEM :
+Write a java program to calculate overtime pay of N employees.
+Overtime pay is paid at the rate of Rs. 12.00 per hour for every hour worked above 40 hours.
+Assume that employees do not work for fractional part of an hour.
+
+HOW I IMPLEMENTED THIS ?
+Here we need to calculate overtime pay for more than one employee in an organization.
+So I have used single dimensional arrays to solve his problem.
+Then read the working hours of each employee into an array.
+Then check whose working hours are more than 40 hours.
+For thenm, find the extra hours more than 40 hours to each individually and multiply the extra hours with 12.00 , then store them in another array.
+Then we find the overtime pay of employee who works more than 40 hours.
+
+TEST CASE 1:
+  INPUT :
+    Enter number of employees
+    5
+    Working hours of user 1
+    27
+    Working hours of user 2
+    35
+    Working hours of user 3
+    47
+    Working hours of user 4
+    42
+    Working hours of user 5
+    19
+  OUTPUT :
+    Employee 3 get overtime pay of rupees 84
+    Employee 4 get overtime pay of rupees 24
+    
+TEST CASE 2:
+  INPUT :
+    Enter number of employees
+    3
+    Working hours of user 1
+    38
+    Working hours of user 2
+    46
+    Working hours of user 3
+    52
+  OUTPUT :
+    Employee 2 get overtime pay of rupees 72
+    Employee 3 get overtime pay of rupees 144
+    
+TEST CASE 3 :
+  INPUT :
+    Enter number of employees
+    5
+    Working hours of user 1
+    34
+    Working hours of user 2
+    32
+    Working hours of user 3
+    39
+    Working hours of user 4
+    16
+    Working hours of user 5
+    25
+  OUTPUT :
+             //There is no output. Because one employee worked for more than 40 hours
+  
