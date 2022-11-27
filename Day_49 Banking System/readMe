@@ -1,0 +1,109 @@
+PROBLEM :
+Create a class to specify data of customers in a bank. The data to be stored is : Account number, name and balance in account..
+Assume that maximum of N customers in a bank.
+a)Write a function to print the Account number and name of each customer with balance below 100 rupees.
+b)If a customer request for withdrawl or deposit, it is given in the form account number.
+Write a program to give a message, "The balance is insufficient for the specified withdrawl".
+
+
+HOW I IMPLEMENTED THIS ?
+Here I have stored the customer details by using single dimensional arrays concept.
+Declare three arrays for account number, name and balance. And store them in withrespective indexes for every iteration.
+
+For checking less than 100 balance accounts, use loop to check the balance of every customer.If the balance is less than 100, then print the account number, name and balance of the customer.
+
+For withdrawl, check the entered account number in the form is valid or not.If yes, then check the balance in that account is sufficient for withdrawl.
+Same for deposit also, check the entered account number is valid or not.
+
+TEST CASE 1:
+Enter the number of customers
+3
+Enter the account number 1
+11111
+Enter the account holder name 1
+Pavan
+Enter the balance 1
+90
+Enter the account number 2
+22222
+Enter the account holder name 2
+Rajesh
+Enter the balance 2
+200
+Enter the account number 3
+33333
+Enter the account holder name 3
+Raghu
+Enter the balance 3
+250
+
+The Customers Details are
+11111 Pavan 90.0
+22222 Rajesh 200.0
+33333 Raghu 250.0
+******************************
+
+Account details below 100 amount
+******************************
+Account No 11111 name is Pavan
+******************************
+
+Enter account number
+44444
+Invalid account number
+Enter account number
+11111
+Enter amount for deposit
+200
+Amount deposited Successfully
+No account found
+After operations, The customer details are
+
+The Customers Details are
+11111 Pavan 290.0
+22222 Rajesh 200.0
+33333 Raghu 250.0
+******************************
+
+
+TEST CASE 2:
+Enter the number of customers
+2
+Enter the account number 1
+11111
+Enter the account holder name 1
+pavan
+Enter the balance 1
+90
+Enter the account number 2
+22222
+Enter the account holder name 2
+rajesh
+Enter the balance 2
+200
+
+The Customers Details are
+11111 pavan 90.0
+22222 rajesh 200.0
+******************************
+
+Account details below 100 amount
+******************************
+Account No 11111 name is pavan
+******************************
+
+
+Enter account number for withdrawl
+11122
+Invalid account details
+Enter account number for deposit
+22222
+Enter amount for deposit
+100
+Amount deposited Successfully
+After operations, The customer details are
+
+The Customers Details are
+11111 pavan 90.0
+22222 rajesh 300.0
+******************************
