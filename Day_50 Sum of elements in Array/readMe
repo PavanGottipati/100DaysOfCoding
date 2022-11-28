@@ -1,0 +1,44 @@
+PROBLEM :
+Find the sum of all elements in the array
+
+HOW I IMPLEMENTED THIS ?
+First read the array size and then enter elements into array.
+Call a function sumArray() for bfinding the sum.
+Then in the function, initialize sum=0.Then run a loop from 0 to n-1 and for every iteration add the element with sum and initialize the value in sum.
+After loop termination, we will get the sum of all elements in the array.
+
+TEST CASE 1:
+  INPUT :
+    Enter array size
+    5
+    Enter elements into array
+    3
+    1
+    7
+    9
+    4
+  OUTPUT :
+    The sum of elements in array is 24
+
+
+TEST CASE 2:
+  INPUT :
+    Enter array size
+    5
+    Enter elements into array
+    0
+    0
+    0
+    0
+    0
+  OUTPUT :
+    The sum of elements in array is 0
+    
+    
+TEST CASE 3 :
+  INPUT :
+    Enter array size
+    0
+    Enter elements into array
+  OUTPUT :
+    The sum of elements in array is 0
