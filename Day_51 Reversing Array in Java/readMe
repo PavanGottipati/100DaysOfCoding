@@ -1,0 +1,60 @@
+PROBLEM :
+Write a program to reverse the elements in an single dimensional array
+
+HOW I IMPLEMENTED THIS ?
+First read the elements into array.
+Then take two pointers start for pointing to starting index of array and end for pointing to last ending of the array.
+Use while loop, for every start<end swap the elemets at start index with end endex and vice versa.
+
+ALGORITHM :
+rvereseArray(int arr[],int start, int end)
+{
+  int temp;
+  while (start < end)
+  {
+    temp = arr[start];
+    arr[start] = arr[end];
+    arr[end] = temp;
+    start++;
+    end--;
+  }
+}
+
+
+TEST CASE 1:
+  INPUT :
+    Enter array size
+    5
+    Enter elements into array
+    1 2 3 4 5
+  OUTPUT :
+    Actual array is
+    1 2 3 4 5
+    Reversed array is
+    5 4 3 2 1 
+    
+    
+TEST CASE 2:
+  INPUT :
+    Enter array size
+    1
+    Enter elements into array
+    13
+  OUTPUT :
+    Actual array is
+    13
+    Reversed array is
+    13
+    
+    
+ TEST CASE 3:
+   INPUT :
+     Enter array size
+     0
+     Enter elements into array
+                                     // NO ELEMENTS IN THE ARRAY
+   OUTPUT :
+     Actual array is
+
+     Reversed array is
+                                      //NO OUTPUT
