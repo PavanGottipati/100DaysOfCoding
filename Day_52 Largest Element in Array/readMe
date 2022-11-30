@@ -1,0 +1,58 @@
+PROBLEM :
+Write a java program to find the largest element in an array
+
+HOW I IMPLEMENTED THIS ?
+First read elements into array.
+Then take first element as max.
+Then run a loop from i=0 to array length.
+Inside loop, check if arr[i]>max, If yes then take max as arr[i].
+Else, then skip the condition and resume in loop.
+After the loop termination, we will be having maximum element in array.
+
+LOOP INVARIANT OF THIS ALGORITHM :
+For every i'th iteration, max must hold the maximum value among the traversed elements.
+
+TEST CASE 1:
+  INPUT :
+    Enter array size
+    5
+    Enter elements into array
+    3
+    1
+    7
+    8
+    5
+  OUTPUT :
+    Largest element present in given array: 8
+    
+
+TEST CASE 2:
+  INPUT :
+    Enter array size
+    3
+    Enter elements into array
+    6
+    6
+    6
+  OUTPUT :
+    Largest element present in given array: 6 
+
+
+TEST CASE 3:
+  INPUT :
+    Enter array size
+    1
+    Enter elements into array
+    12
+  OUTPUT :
+    Largest element present in given array: 12
+    
+    
+TEST CASE 4:
+  INPUT :
+    Enter array size
+    0
+    Enter elements into array
+  output :
+    Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at LargestElementInArray.main(LargestElementInArray.java:16)
