@@ -48,4 +48,4 @@ TEST CASE 4 :
     0
     Enter elements into array
   OUTPUT :
-    //I will throw an exception
+    //It will throw an exception
