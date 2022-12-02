@@ -1,0 +1,54 @@
+PROBLEM :
+Display the even numbers and Odd numbers in an Array
+
+HOW I IMPLEMENTED THIS ?
+Here take elements into array
+Then traverse the elements in array loop1, if the element in array is divided by 2, then display the number as Even.
+After that run loop to traverse the elements in array, if the element is not divided by 2, then display the number as Odd.
+
+TEST CASE 1 :
+  INPUT :
+    Enter array size
+    5
+    Enter elements into array
+    2  1  6  4  5
+  OUTPUT :
+    The Even elements are
+    2  6  4
+    The Odd elements are
+    1  5
+    
+TEST CASE 2 :
+  INPUT :
+    Enter array size
+    5
+    Enter elements into array
+    2  4  6  4  8
+  OUTPUT :
+    The Even elements are
+    2  4  6  4  8
+    The Odd elements are
+                //No odd elements
+                
+TEST CASE 3 :
+  INPUT :
+    Enter array size
+    3
+    Enter elements into array
+    3  1  7
+  OUTPUT :
+    The Even elements are
+
+    The Odd elements are
+    3  1  7
+
+TEST CASE 4 :
+  INPUT :
+    Enter array size
+    0
+    Enter elements into array
+
+  OUTPUT :
+    The Even elements are
+
+    The Odd elements are
