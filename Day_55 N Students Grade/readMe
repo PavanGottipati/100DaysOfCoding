@@ -1,0 +1,39 @@
+PROBLEM :
+Write a program to calculate the total marks and find average and grades of N students.
+
+HOW I IMPLEMENTED THIS ?
+Here the problem seemd to be very easy. I have implemented this logic by using single dimensiobal arrays.
+Once you can go through the code and execute it.
+You can see the output in different style/format.
+For those styles, I have used java printf() and String, Number formatting.
+
+INPUT :
+Enter number of students:
+3
+Enter student 1 details:
+Roll No: 192012
+Roll Name: Pavan
+Subject 1 Marks: 98
+Subject 2 Marks: 78
+Subject 3 Marks: 88
+Enter student 2 details:
+Roll No: 890216
+Roll Name: Rajesh
+Subject 1 Marks: 25
+Subject 2 Marks: 21
+Subject 3 Marks: 25
+Enter student 3 details:
+Roll No: 374635
+Roll Name: Lokesh
+Subject 1 Marks: 76
+Subject 2 Marks: 68
+Subject 3 Marks: 78
+
+
+OUTPUT :
+*****************************************************************
+Roll No        Name           Total          Average        Grade
+*****************************************************************
+192012         Pavan          264.000000     88.000000      A
+890216         Rajesh         71.000000      23.666667      Fail
+374635         Lokesh         222.000000     74.000000      B
