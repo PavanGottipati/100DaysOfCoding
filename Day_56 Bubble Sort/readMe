@@ -1,0 +1,57 @@
+PROBLEM :
+Sort the elements in ascending order by using bubble sort
+
+HOW I IMPLEMENTED THIS ?
+Here I have used Bubble Sorting algorithm to sort those elements in ascending order.
+In bubble sort algorithm, array is traversed from first element to last element. 
+Here, current element is compared with the next element. 
+If current element is greater than the next element, it is swapped.
+
+TIME COMPLEXITY OF BUBBLE SORT ALGORITHM
+BEST CASE : O(n)
+AVERAGE CASE : O(n^2)
+WORST CASE : O(n^2)
+
+WORST SPACE COMPLEXITY : O(1)
+
+STABILITY OF BUBBLE SORT ALGORITHM : Yes
+
+TEST CASE 1 :
+  INPUT :
+    Enter array size
+    6
+    Enter elements into array
+    21  24  2  -8  14  6
+  OUTPUT :
+    Array Before Bubble Sort
+    21  24  2  -8  14  6
+    Array After Bubble Sort
+    -8  2  6  14  21  24
+    
+    
+TEST CASE 2 :
+  INPUT :
+    Enter array size
+    5
+    Enter elements into array
+    2  1  7  5  8
+  OUTPUT :
+    Array Before Bubble Sort
+    2  1  7  5  8
+    Array After Bubble Sort
+    1  2  5  7  8
+    
+    
+TEST CASE 3 :
+  INPUT :
+    Enter array size
+    3
+    Enter elements into array
+    3  3  3
+  OUTPUT :
+    Array Before Bubble Sort
+    3  3  3
+    Array After Bubble Sort
+    3  3  3
+    
+    
