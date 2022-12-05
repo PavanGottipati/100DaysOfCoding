@@ -1,0 +1,58 @@
+PROBLEM :
+Sort the elements in ascending order using the algorithm in which you use in playing cards.
+
+HOW I IMPLEMENTED THIS ?
+Here, the algorithm that we use for shuffling of playing cards is "Insertion Sort"
+So, I have solved this problem by using insertion sort.
+
+INSERTION SORT :
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands.
+The array is virtually split into a sorted and an unsorted part. 
+Values from the unsorted part are picked and placed at the correct position in the sorted part.
+
+PSEUDOCODE FOR INSERTION SORT :
+INSERTION(A)
+1)for j<- 2 to n
+2)   do key<- A[j]
+3)      i<- j-1
+4)      whilei>0 and A[i]>key
+5)        do A[i+1]<- A[i]
+6)           i<- i-1
+7)      A[i+1}<-key
+8)End
+
+TIME COMPLEXITY OF INSERTION SORT :
+BEST CASE : O(n)
+AVERAGE CASE : O(n^2)
+WORST CASE : O(n^2)
+
+WORST SPACE COMPLEXITY : O(1)
+
+TEST CASE 1 :
+INPUT :
+Enter array size
+5
+Enter elements into array
+3  1  9  7  3
+Insertion sort successful
+1 3 3 7 9
+
+TEST CASE 2 :
+INPUT :
+Enter array size
+5
+Enter elements into array
+1  2  3  4  5
+OUTPUT :
+Insertion sort successful
+1 2 3 4 5
+
+TEST CASE 3 :
+INPUT :
+Enter array size
+5
+Enter elements into array
+5  4  3  2  1
+OUTPUT :
+Insertion sort successful
+1 2 3 4 5
