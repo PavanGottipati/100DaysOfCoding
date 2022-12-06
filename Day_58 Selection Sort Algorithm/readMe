@@ -1,0 +1,74 @@
+SELECTION SORT :
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning. 
+
+The algorithm maintains two subarrays in a given array.
+
+The subarray which already sorted. 
+The remaining subarray was unsorted.
+In every iteration of the selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
+
+PSEUDOCODE :
+sort(arr[])
+// One by one move boundary of unsorted subarray
+for (int i = 0; i < n-1; i++)
+	// Find the minimum element in unsorted array
+	smallest = i;
+	for (int j = i+1; j < n; j++)
+				if(arr[j] < arr[smallest])
+					  smallest = j
+	// Swap the found minimum element with the first element
+	Swap(arr[i],arr[smallest])
+END
+
+
+TIME COMPLEXITY OF SELECTION SORT ALGORITHM :
+BEST CASE : O(n^2)
+AVERAGE CASE : O(n^2)
+WORST CASE : O(n^2)
+
+WORST SPACE COMPLEXITY : O(1)
+
+TEST CASE 1:
+INPUT :
+Enter array size
+5
+Enter elements into array
+2  4  6  8  9
+OUTPUT :
+Before Sorting, the elements are
+2 4 6 8 9
+Sorted array
+2 4 6 8 9
+
+
+TEST CASE 2:
+INPUT :
+Enter array size
+5
+Enter elements into array
+2  2  2  2  2
+OUTPUT :
+Before Sorting, the elements are
+2 2 2 2 2
+Sorted array
+2 2 2 2 2
+
+
+TEST CASE 3 :
+INPUT :
+Enter array size
+3
+Enter elements into array
+33  11  55
+OUTPUT :
+Before Sorting, the elements are
+33 11 55
+Sorted array
+11 33 55
+
+
+TEST CASE 4 :
+INPUT :
+Enter array size
+0
+The array size should be greater than Zero
