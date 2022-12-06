@@ -42,7 +42,7 @@ class SelectionSort
 	{
         Scanner sc=new Scanner(System.in);
 		SelectionSortOperation ob = new SelectionSortOperation();
-		System.out.println("Enetr array size ");
+		System.out.println("Enter array size ");
         int n=sc.nextInt();
         if(n>0)
         {
