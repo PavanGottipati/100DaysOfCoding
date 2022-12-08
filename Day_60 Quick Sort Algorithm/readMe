@@ -1,0 +1,73 @@
+PROBLEM :
+Sort the elements in the given Unordered array with the algorithm which sorts the array very fastly comparing with various sorting algorithms.
+
+HOW I IMPLEMENTED THIS ?
+Here, the constraint given is "very fast", So for this condition, I have chosen Quick Sort algorithm to solve the problem.
+
+QUICK SORT ALGORITHM :
+==>Quicksort is a sorting algorithm based on the divide and conquer approach where
+
+==>An array is divided into subarrays by selecting a pivot element (element selected from the array).
+
+==>While dividing the array, the pivot element should be positioned in such a way that elements less than pivot are kept on the left side and elements greater than pivot are on the right side of the pivot.
+==>The left and right subarrays are also divided using the same approach. This process continues until each subarray contains a single element.
+==>At this point, elements are already sorted. Finally, elements are combined to form a sorted array.
+
+TIME COMPLEXITY OF QUICK SORT ALGORITHM :
+BEST CASE : O(n logn)
+AVERAGE CASE : O(n logn)
+WORST CASE : O(n logn)
+
+WORST SPACE COMPLEXITY : O(log n)
+ 
+STABILITY OF QUICK SORT ALGORITHM : No
+
+
+TEST CASE 1 : Average Case
+INPUT :
+Enter array size
+5
+Enter elements into array
+4  1  6  3  5
+OUTPUT :
+Unsorted Array
+[4, 1, 6, 3, 5]
+Sorted Array in Ascending Order:
+[1, 3, 4, 5, 6]
+
+
+TEST CASE 2 : Worst Case
+INPUT :
+Enter array size
+6
+Enter elements into array
+45  32  31  29  24  19
+Unsorted Array
+[45, 32, 31, 29, 24, 19]
+Sorted Array in Ascending Order:
+[19, 24, 29, 31, 32, 45]
+
+
+TEST CASE 3 : Best Case
+INPUT :
+Enter array size
+4
+Enter elements into array
+23  25  32  38
+OUTPUT :
+Unsorted Array
+[23, 25, 32, 38]
+Sorted Array in Ascending Order:
+[23, 25, 32, 38]
+
+
+TEST CASE 4 : // array is empty
+INPUT :
+Enter array size
+0
+Enter elements into array
+OUTPUT :
+Unsorted Array
+[]
+Sorted Array in Ascending Order:
+[]
