@@ -1,0 +1,61 @@
+PROBLEM :
+Sort the list of n elements using Max Heap
+
+HEAP SORT :
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. 
+It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. 
+Repeat the same process for the remaining elements.
+
+MAX HEAP :
+A max-heap is a complete binary tree in which the value in each internal node is greater than or equal to the values in the children of that node. 
+Mapping the elements of a heap into an array is trivial: if a node is stored an index k, then its left child is stored at index 2k + 1 and its right child at index 2k + 2.
+
+TEST CASE 1 :
+Enter array size
+5
+Enter elements into array
+32
+1
+5
+4
+8
+Before sorting.....
+[32, 1, 5, 4, 8]
+Sorted array using Max Heap is
+[1, 4, 5, 8, 32]
+
+TEST CASE 2 :
+Enter array size
+6
+Enter elements into array
+4
+1
+2
+6
+5
+8
+Before sorting.....
+[4, 1, 2, 6, 5, 8]
+Sorted array using Max Heap is
+[1, 2, 4, 5, 6, 8]
+
+TEST CASE 3 :
+Enter array size
+3
+Enter elements into array
+5
+5
+5
+Before sorting.....
+[5, 5, 5]
+Sorted array using Max Heap is
+[5, 5, 5]
+
+TEST CASE 4 :
+Enter array size
+0
+Enter elements into array
+Before sorting.....
+[]
+Sorted array using Max Heap is
+[]
