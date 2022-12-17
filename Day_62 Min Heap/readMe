@@ -1,0 +1,76 @@
+PROBLEM :
+Arrange elements in descending order with the algorithm which gives minimum time worst case complexity comparing with other algorithms
+
+HOW I IMPLEMENTED THIS ?
+Here we have to sort the elements in descending order and the condition given is with possible less time complexity.
+So, I have implemented Heap sort algorithm using Min Heap to solve the above problem
+
+MIN HEAP :
+In a Min-Heap the key present at the root node must be less than or equal among the keys present at all of its children. 
+The same property must be recursively true for all sub-trees in that Binary Tree. 
+In a Min-Heap the minimum key element present at the root. 
+Below is the Binary Tree that satisfies all the property of Min Heap.
+
+HEAP SORT ALGORITHM :
+Build a min heap from the input data. 
+At this point, the smallest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of heap by 1. Finally, heapify the root of tree. 
+Repeat above steps while size of heap is greater than 1.
+
+TIME COMPLEXITY :
+WORST CASE : O(n log n)
+BEST CASE : O(n log n)
+AVERAGE CASE : O(n log n)
+
+WORST CASE SPACE COMPLEXITY : O(n)
+
+
+TEST CASE 1 :
+INPUT :
+Enter array size
+5
+Enter elements into array
+34  27  17  8  2
+*****************
+OUTPUT :
+Before sorting.....
+[34, 27, 17, 8, 2]
+Sorted array using Min Heap is
+[34, 27, 17, 8, 2]
+
+************************************************
+TEST CASE 2 :
+INPUT :
+Enter array size
+5
+Enter elements into array
+1  4  12  15  17
+***************
+OUTPUT :
+Before sorting.....
+[1, 4, 12, 15, 17]
+Sorted array using Min Heap is
+[17, 15, 12, 4, 1]
+
+************************************************
+TEST CASE 3 :
+input :
+Enter array size
+5
+Enter elements into array
+5  3  76  1  6
+*******************
+output :
+Before sorting.....
+[5, 3, 76, 1, 6]
+Sorted array using Min Heap is
+[76, 6, 5, 3, 1]
+
+************************************************
+TEST CASE 4 :
+Enter array size
+0
+Enter elements into array
+Before sorting.....
+[]
+Sorted array using Min Heap is
+[]
