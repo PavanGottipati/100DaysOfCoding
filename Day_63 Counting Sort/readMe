@@ -1,0 +1,60 @@
+PROBLEM : Sort the elements in an array using Counting Sort
+
+CONTING SORT :
+Counting sort is a sorting technique based on keys between a specific range. 
+It works by counting the number of objects having distinct key values (a kind of hashing). 
+Then do some arithmetic operations to calculate the position of each object in the output sequence. 
+
+ALGORITHM :
+countingSort(array, n) // 'n' is the size of array  
+max = find maximum element in the given array  
+create count array with size maximum + 1  
+Initialize count array with all 0's  
+for i = 0 to n  
+find the count of every unique element and   
+store that count at ith position in the count array  
+for j = 1 to max  
+Now, find the cumulative sum and store it in count array  
+for i = n to 1  
+Restore the array elements  
+Decrease the count of every restored element by 1  
+end countingSort 
+
+TIME COMPLEXITY : O(n+k)
+
+TEST CASE 1 :
+Enter array size
+5
+Enter elements into array
+21
+1
+7
+4
+19
+After counting sort implementation, the array is
+1 4 7 19 21
+
+
+TEST CASE 2 :
+Enter array size
+3
+Enter elements into array
+-1
+-5
+-3
+After counting sort implementation, the array is
+-5 -3 -1
+
+
+TEST CASE 3 :
+Enter array size
+5
+Enter elements into array
+3
+-2
+1
+-5
+4
+After counting sort implementation, the array is
+-5 -2 1 3 4
+
