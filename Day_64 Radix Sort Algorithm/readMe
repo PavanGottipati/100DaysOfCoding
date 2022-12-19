@@ -1,0 +1,56 @@
+PROBLEM : 
+Implement radix sort for the given unordered list
+23  1  342  56  4  16
+
+HOW I IMPLEMENTED THIS ?
+Based on the input given, I have used Radix Sort Algorithm to solve this problem.
+
+RADIX SORT ALGORITHM :
+The idea of Radix Sort is to do digit by digit sort starting from least significant digit to most significant digit. 
+Radix sort uses counting sort as a subroutine to sort.
+
+TIME COMPLEXITY :
+BEST CASE : O(nk)
+AVERAGE CASE : O(nk)
+WORST CASE : O(nk)
+
+WORST SPACE COMPLEXITY : O(n+k)
+
+TEST CASE 1 :
+Enter array size
+6
+Enter elements into array
+23
+1
+342
+56
+4
+16
+After implementing Radix Sort, the sorted array is
+1  4  16  23  56  342
+
+TEST CASE 2 :
+Enter array size
+5
+Enter elements into array
+144
+2416
+534
+9
+35
+After implementing Radix Sort, the sorted array is
+9  35  144  534  2416
+
+TEST CASE 3 :
+Enter array size
+5
+Enter elements into array
+-231
+2
+16
+42
+67
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 10
+        at RadixSort.countSort(RadixSort.java:29)
+        at RadixSort.radixsort(RadixSort.java:60)
+        at RadixSort.main(RadixSort.java:85)
