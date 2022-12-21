@@ -1,0 +1,75 @@
+PROBLEM :
+Sort the elements in the unordered list by using bucket Sort
+
+BUCKET SORT :
+Bucket sort or bin sort is a sorting algorithm that works by distributing the elements into a number of buckets, homogenously. 
+Each bucket is then sorted individually. 
+And concatenates all buckets into array
+
+ALGORITHM :
+Bucket Sort(A[])
+
+Let B[0….n-1] be a new array
+n=length[A]
+for i=0 to n-1
+make B[i] an empty list
+for i=1 to n
+do insert A[i] into list B[n a[i]]
+for i=0 to n-1
+do sort list B[i] with insertion-sort
+Concatenate lists B[0], B[1],..……, B[n-1] together in order
+
+
+Time Complexity
+Worst Case :	O(n^2)
+Best Case	: O(n+k)
+Average Case :	O(n+k)
+
+SPACE COMPLEXITY : o(n+k)
+
+TEST CASE 1 :
+Enter array size
+10
+Enter elements into array
+0.21
+0.34
+0.65
+0.12
+0.32
+0.23
+0.11
+0.56
+0.27
+0.52
+Before Sorting, the array is
+0.21    0.34    0.65    0.12    0.32    0.23    0.11    0.56    0.27    0.52
+Sorted array is
+0.11    0.12    0.21    0.23    0.27    0.32    0.34    0.52    0.56    0.65
+
+TEST CASE 2 :
+Enter array size
+5
+Enter elements into array
+0.21
+0.34
+0.45
+0.58
+0.68
+Before Sorting, the array is
+0.21    0.34    0.45    0.58    0.68
+Sorted array is
+0.21    0.34    0.45    0.58    0.68
+
+TEST CASE 3 :
+Enter array size
+5
+Enter elements into array
+0.68
+0.58
+0.45
+0.34
+0.21
+Before Sorting, the array is
+0.68    0.58    0.45    0.34    0.21
+Sorted array is
+0.21    0.34    0.45    0.58    0.68
