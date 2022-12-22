@@ -1,0 +1,103 @@
+STACK USING ARRAY :
+A stack data structure can be implemented using a one-dimensional array. 
+But stack implemented using array stores only a fixed number of data values. 
+This implementation is very simple. Just define a one dimensional array of specific size and insert or delete the values into that array by using LIFO principle with the help of a variable called 'top'. 
+Initially, the top is set to -1. 
+Whenever we want to insert a value into the stack, increment the top value by one and then insert. 
+Whenever we want to delete a value from the stack, then delete the top value and decrement the top value by one.
+
+OPERATION	   BEST TIME COMPLEXITY	   WORST TIME COMPLEXITY	   AVERAGE TIME COMPLEXITY	  SPACE COMPLEXITY
+Push	         O(1)	                   O(N)	                    O(1)	                         O(1)
+Pop	           O(1)	                   O(1)	                    O(1)	                         O(1)
+Peek	         O(1)	                   O(1)	                    O(1)	                         O(1)
+
+TEST CASE :
+Enter Stack size
+3
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data
+10
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data
+20
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data
+30
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+1
+Stack Overflow
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+3
+The elements in the Stack are  =  30  20  10
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 30
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+3
+The elements in the Stack are  =  20  10
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 20
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+3
+The elements in the Stack are  =  10
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 10
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+3
+Stack is Empty
+1.Push
+2.Pop
+3.Display
+4.Exit
+Enter your choice
+4
+Exit...........................
