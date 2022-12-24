@@ -1,0 +1,211 @@
+CIRCULAR QUEUE :
+A Circular Queue is a special version of queue where the last element of the queue is connected to the first element of the queue forming a circle.
+In a normal Queue, we can insert elements until queue becomes full. But once queue becomes full, we can not insert the next element even if there is a space in front of queue.
+So, to reduce this memory wastage, We use Circular Queue.
+Like normal Queue data structure, Circular Queue data structure also follows FIFO (First In First Out)
+
+TIME COMPLEXITY :
+Enqueue : O(1)
+Dequeue : O(1)
+Display : O(n)
+
+TEST CASE 1 :
+Enter array size
+5
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+100
+Data inserted Successfully
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+200
+Data inserted Successfully
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+300
+Data inserted Successfully
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+400
+Data inserted Successfully
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+500
+Data inserted Successfully
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Queue Overflow
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 100 200 300 400 500
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 100
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 200 300 400 500
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 200
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 300 400 500
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+200
+Data inserted Successfully
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 300 400 500 200
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+100
+Data inserted Successfully
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 300 400 500 200 100
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Queue Overflow
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 300
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 400
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 500
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 200
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+2
+The deleted element is 100
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+2
+Queue Underflow
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+3
+Queue is Empty
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+4
+
+TEST CASE 2 :
+Enter array size
+0
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+100
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at CircleQ.enqueue(CircularQueueArray.java:36)
+        at CircularQueueArray.main(CircularQueueArray.java:114)
+
