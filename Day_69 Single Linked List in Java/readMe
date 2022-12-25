@@ -1,0 +1,228 @@
+SINGLE LINKED LIST :
+The Single Linked List is a linear data structure in which each element of the list contains a pointer which points to the next element in the list.
+Each element in the single linked list is called a Node.
+Each Node has two components : data and a next pointer which points to the next element.
+The first node of the list is called as head.
+The last node of the list contains a pointer to the null.
+
+TEST CASE :
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+1
+Enter data to be inserted
+100
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+2
+Enter data to be inserted
+90
+Node inserted successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+3
+Enter position to be inserted
+1
+Enter data to be inserted
+95
+Node inserted successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+4
+Enter data to be inserted
+120
+Node inserted successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+8
+The elements in the list are  90  100  95  120
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+9
+Enter search element to be check
+95
+Element found at 1 Node
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+9
+Enter search element to be check
+1000
+Element not found
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+5
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+8
+The elements in the list are  100  95  120
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+6
+Enter position to be deleted
+1
+Node deleted successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+8
+The elements in the list are  100  120
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+4
+Enter data to be inserted
+130
+Node inserted successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+7
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+8
+The elements in the list are  100  120
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Search
+10.Exit
+Enter choice
+10
+Exit from the Execution Flow
