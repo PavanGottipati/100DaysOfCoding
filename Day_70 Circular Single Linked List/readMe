@@ -1,0 +1,148 @@
+CIRCULAR SINGLE LINKED LIST :
+In a Circular Single Linked, the last node of the list contains a pointer to the first node of the list.
+The Operations that can be performed on the Circular Single Linked List are, Insertion at starting and ending, Deletion at starting and ending.
+We can traverse the elements untill we reach the first node.
+
+TEST CASE :
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+6
+List is empty
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+1
+Enter data to be inserted
+100
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+2
+Enter data to be inserted
+90
+Node inserted Successfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+3
+Enter data to be inserted
+110
+Node inserted sucessfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+6
+The elements are
+90 100 110
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+4
+First Node deleted sucessfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+6
+The elements are
+100 110
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+3
+Enter data to be inserted
+120
+Node inserted sucessfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+6
+The elements are
+100 110 120
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+5
+Last node deleted Successfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+6
+The elements are
+100 110
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+7
+Exit from the execution flow
