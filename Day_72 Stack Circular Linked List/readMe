@@ -1,0 +1,157 @@
+STACK USING CIRCULAR SINGLE LINKED LIST :
+In this type of Stack data structure, the last/tail node next is pointing to the top node.
+Like Stack data structure, it follows LIFO (Last In First Out)
+Operation like Push and Pop occurs at one end only.
+
+TEST CASE :
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+2
+Stack Underflow
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+1
+Enter data to be inserted
+100
+Node pushed into Stack successfully
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+1
+Enter data to be inserted
+200
+Node pushed into Stack successfully
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+1
+Enter data to be inserted
+300
+Node pushed into Stack successfully
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+3
+The elements in the Stack are
+300
+200
+100
+
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+4
+The top most element in the stack is 300
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+2
+Top Node deleted successfully
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+3
+The elements in the Stack are
+200
+100
+
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+4
+The top most element in the stack is 200
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+2
+Top Node deleted successfully
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+4
+The top most element in the stack is 100
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+3
+The elements in the Stack are
+100
+
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+2
+Top Node deleted successfully
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+3
+Stack is empty
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+4
+Stack is empty
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+2
+Stack Underflow
+1.Push
+2.Pop
+3.display
+4.peek
+5.Exit
+Enter your choice
+5
+Exit from the Execution Flow
