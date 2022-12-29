@@ -1,0 +1,154 @@
+DOUBLE LINKED LIST :
+In Double Linked List, a Node contains a pointer to the next and previous aswell.
+In this, a Node consists of three parts: Noda data, a pointer to the next Node (next pointer) and a pointer to previous Node (prev pointer)
+
+TEST CASE :
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+2
+Can't insert node... List is empty
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+1
+Enter data to be inserted
+100
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+2
+Enter data to be inserted
+90
+Node inserted successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+4
+Enter data to be inserted
+110
+Node inserted Successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+3
+Enter position to be inserted
+2
+Enter data to be inserted
+95
+Node inserted successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+8
+90  95  100  110
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+5
+Node deleted successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+8
+95  100  110
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+7
+Node deleted successfully
+
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+8
+95  100
+1.Create
+2.Insert First
+3.insert Position
+4.Insert Last
+5.Delete First
+6.Delete Position
+7.Delete Last
+8.Display
+9.Exit
+Enter choice
+9
+Exit from the Execution Flow
