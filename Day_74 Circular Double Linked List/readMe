@@ -1,0 +1,136 @@
+CIRCULAR DOUBLE LINKED LIST :
+In a Circular Double Linked List, a Node contains pointers to its previous node and next node
+And the tail node next is pointed to the head node and head node prev is pointed to tail node
+
+TEST CASE :
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+2
+List is empty
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+1
+Enter data to be inserted
+100
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+2
+Enter data to be inserted
+90
+Node inserted successfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+3
+Enter data to be inserted
+110
+Node inserted successfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+2
+Enter data to be inserted
+80
+Node inserted successfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+6
+The elements are
+80 90 100 110
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+4
+Node deleted successfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+6
+The elements are
+90 100 110
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+5
+Node deleted successfully
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+6
+The elements are
+90 100
+
+1.ceation
+2.insert First
+3.insert Last
+4.delete First
+5.delete Last
+6.Display
+7.Exit
+Enter your choice
+7
+Exit from the Execution Flow
