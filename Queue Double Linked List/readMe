@@ -1,0 +1,120 @@
+QUEUE USING DOUBLE LINKED LIST :
+Like Queue data structure, it follows FIFO (First In First Out) principle
+Insertion takes place at rear side and deletion takes place at front side
+And each node contains pointer to its previous and next nodes
+The first node previous points to null and the last node next points to null
+
+TEST CASE :
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+2
+Queue Underflow
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+100
+Node inserted successfully
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+200
+Node inserted successfully
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+300
+Node inserted successfully
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 100  200  300
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+2
+The removed element is 100
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 200  300
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+400
+Node inserted successfully
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 200  300  400
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+2
+The removed element is 200
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+2
+The removed element is 300
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+2
+The removed element is 400
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+2
+Queue Underflow
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+3
+Queue is Empty
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+4
+Exit from the Execution Flow
