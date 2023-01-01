@@ -1,0 +1,77 @@
+
+QUEUE USING CIRCULAR DOUBLE   LINKED LIST :
+Like Queue data structure, it follows FIFO (First In First Out)
+Each node points to its next node and previous node
+The tail node i.e., rear node next is pointing to front node as well as front node prev is pointing to rear node
+TEST CASE :
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+2
+Queue Underflow
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+10
+Node inserted successfully
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+20
+Node inserted successfully
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+1
+Enter data to be inserted
+30
+Node inserted successfully
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 10  20  30
+
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+2
+The removed element is 10
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+3
+The elements in the Queue are 20  30
+
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+2
+The removed element is 20
+1.Enqueue
+2.Dequeue
+3.display
+4.Exit
+Enter your choice
+4
+Exit from the Execution Flow
