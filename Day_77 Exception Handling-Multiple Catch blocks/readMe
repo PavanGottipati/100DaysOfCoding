@@ -1,0 +1,32 @@
+EXCEPTION IN JAVA :
+An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions. 
+When an error occurs within a method, the method creates an object and hands it off to the runtime system.
+
+MULTIPLE CATCH BLOCK :
+A try block can be followed by one or more catch blocks. Each catch block must contain a different exception handler. 
+So, if you have to perform different tasks at the occurrence of different exceptions, use java multi-catch block.
+All catch blocks must be ordered from most specific to most general, i.e. catch for ArithmeticException must come before catch for Exception.
+
+TEST CASE 1 :
+Enter a number for division
+10
+Here the array size is 5 , So enter a index from 0 to 4 to insert the result after division operation
+3
+Operations Done Successfully.. Without any Exceptions
+Rest Of The Code.............
+
+TEST CASE 2 :
+Enter a number for division
+0
+Here the array size is 5 , So enter a index from 0 to 4 to insert the result after division operation
+2
+java.lang.ArithmeticException: / by zero
+Rest Of The Code.............
+
+TEST CASE 3 :
+Enter a number for division
+10
+Here the array size is 5 , So enter a index from 0 to 4 to insert the result after division operation
+5
+java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+Rest Of The Code.............
