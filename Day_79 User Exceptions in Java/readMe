@@ -1,0 +1,31 @@
+USER DEFINED EXCEPTIONS :
+User-defined exceptions are also referred to as custom exceptions. 
+The exceptions created for our use case and thrown using the throw keyword are user-defined exceptions, and such exceptions are derived classes of the Exception class from the java.lang package.
+
+TEST CASE 1 :
+Enter user name
+Pavan
+Enter Password
+1234
+Valid username
+
+TEST CASE 2 :
+Enter user name
+Pavan
+Enter Password
+2345
+InvalidCredentialsException: Incorrect Password - 2345
+
+TEST CASE 3 :
+Enter user name
+Ramesh
+Enter Password
+1234
+InvalidCredentialsException: no such user with username - Ramesh
+
+TEST CASE 4 :
+Enter user name
+Praveen
+Enter Password
+2135
+InvalidCredentialsException: no such user with username - Praveen and password 2135
