@@ -1,0 +1,23 @@
+THREAD IN JAVA :
+A thread in Java is the direction or path that is taken while a program is being executed. 
+Generally, all the programs have at least one thread, known as the main thread, that is provided by the JVM or Java Virtual Machine at the starting of the program's execution.
+
+A Thread can be created by using Extending the Thread class or By implementing the Runnable interface.
+These are the predefined abstract Class and Interface in java.lang package
+
+run() is member of Thread class in which the actual logic is implemented and start() is also a member of Thread class and which enables to execute the run() method
+
+In this program, we are just going to display square of first ten natural numbers by using Thread
+
+TEST CASE :
+Thread is running
+1*1=1
+2*2=4
+3*3=9
+4*4=16
+5*5=25
+6*6=36
+7*7=49
+8*8=64
+9*9=81
+10*10=100
