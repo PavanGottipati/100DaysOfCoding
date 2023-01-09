@@ -1,0 +1,57 @@
+COLLECTION IN JAVA
+The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.
+
+Java Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion, manipulation, and deletion.
+
+Java Collection means a single unit of objects. Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
+
+ArrayList :
+The ArrayList class implements the List interface. It uses a dynamic array to store the duplicate element of different data types. 
+The ArrayList class maintains the insertion order and is non-synchronized. The elements stored in the ArrayList class can be randomly accessed.
+
+TEST CASE :
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+1
+Enter value
+43
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+1
+Enter value
+28
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+1
+Enter value
+15
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+1
+Enter value
+5
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+4
+The elements are [43, 28, 15, 5]
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+2
+Enter position
+2
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+4
+The elements are [43, 28, 5]
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+3
+Elements sorted successfully
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+4
+The elements are [5, 28, 43]
+1.Add 2.Remove 3.Sort 4.Display 5.Exit
+Enter your choice
+5
+Exit.......
