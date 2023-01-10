@@ -1,0 +1,66 @@
+LinkedList in Collections Package :
+
+Linked List is a part of the Collection framework present in java.util package. 
+This class is an implementation of the LinkedList data structure which is a linear data structure where the elements are not stored in contiguous locations and every element is a separate object with a data part and address part. 
+The elements are linked using pointers and addresses. Each element is known as a node. 
+
+Due to the dynamicity and ease of insertions and deletions, they are preferred over the arrays. 
+It also has a few disadvantages like the nodes cannot be accessed directly instead we need to start from the head and follow through the link to reach a node we wish to access.
+
+
+TEST CASE :
+
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+1
+Enter value
+10
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+2
+Enter value to be inserted at First
+9
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+3
+Enter position to be inserted
+2
+Enter value
+11
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+4
+Enter value to be inserted at Last
+12
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+9
+Copying elements from list1 to list2
+The list1 is [9, 10, 11, 12]
+The list2 is [9, 10, 11, 12]
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+8
+The elements in the list are [9, 10, 11, 12]
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+7
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+5
+Elements removed at First
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+8
+The elements in the list are [10, 11, 12]
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice6
+Element removed at Last
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+8
+The elements in the list are [10, 11]
+1.Add 2.AddFirst 3.AddPosition 4.AddLast 5.RemoveFirst 6.RemoveLast 7.Sort 8.Display 9.CopyList1ToList2 10.Exit
+Enter your choice
+10
+Exit..............
