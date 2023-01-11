@@ -1,0 +1,71 @@
+VECTOR IN COLLECTIONS PACKAGE :
+The Vector class implements a growable array of objects. Vectors fall in legacy classes, but now it is fully compatible with collections. 
+It is found in java.util package and implement the List interface, so we can use all the methods of the List interface 
+
+TEST CASE 1:
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+1
+Enter value to be added
+10
+Value added successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+2
+Enter value to be added
+20
+Enter Position to be inserted
+1
+Value inserted at position successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+1
+Enter value to be added
+30
+Value added successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+1
+Enter value to be added
+40
+Value added successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+5
+The elements in Vector are [10, 20, 30, 40]
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+4
+Enter index to be updated
+1
+Enter value to be updated
+9
+Value updated successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+5
+The elements in Vector are [10, 9, 30, 40]
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+3
+Enter position to be deleted
+2
+Value deleted from Vector successfully
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+5
+The elements in Vector are [10, 30, 40]
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+6
+Exit.........................
+
+TEST CASE 2 :
+1.Add 2.AddIndex 3.RemovePosition 4.Update 5.Display 6.Exit
+Enter Your Choice
+3
+Enter position to be deleted
+2
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 1
+        at java.base/java.util.Vector.remove(Vector.java:844)
+        at VectorCollection.main(VectorCollection.java:37)
