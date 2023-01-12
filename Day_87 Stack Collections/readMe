@@ -1,0 +1,68 @@
+Stack in Collections :
+
+Java Collection framework provides a Stack class that models and implements a Stack data structure. The class is based on the basic principle of last-in-first-out. 
+In addition to the basic push and pop operations, the class provides three more functions of empty and peek. 
+The class can also be said to extend Vector and treats the class as a stack with the four mentioned functions. 
+The class can also be referred to as the subclass of Vector.
+
+TEST CASE :
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+2
+Stack Underflow
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+3
+Stack is Empty
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+4
+Stack is Empty
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+100
+Element pushed into stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+200
+Element pushed into stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+300
+Element pushed into stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+400
+Element pushed into stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+3
+The top most element is 400
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+4
+The elements are [100, 200, 300, 400]
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+2
+Element popped from the stack successfully
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+3
+The top most element is 300
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+4
+The elements are [100, 200, 300]
+1.Push 2.Pop 3.Peek 4.Display 5.Exit
+Enter your choice
+5
+Exit............
