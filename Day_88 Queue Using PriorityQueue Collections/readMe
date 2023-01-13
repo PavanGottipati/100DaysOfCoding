@@ -1,0 +1,73 @@
+Queue in Collections :
+The Queue interface is present in java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order. 
+
+It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle.
+
+Methods :
+1)offer(element) : it adds element to the Queue Object at the end
+
+2)poll() :It returns true if it deletes the front side element. If the Queue is empty, it returns null
+
+3)peek() : To print the head element of the queue
+
+TEST CASE :
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+2
+Queue is Empty
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+3
+Queue is Empty
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+4
+Queue is Empty
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+100
+Element offered into Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+200
+Element offered into Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+300
+Element offered into Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+1
+Enter element
+400
+Element offered into Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+3
+The front most element is 100
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+4
+The elements are [100, 200, 300, 400]
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+2
+Element polled from the Queue successfully
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+3
+The front most element is 200
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+4
+The elements are [200, 400, 300]
+1.Add(Offer) 2.Remove(Poll) 3.Peek 4.Display 5.Exit
+Enter your choice
+5
+Exit............
