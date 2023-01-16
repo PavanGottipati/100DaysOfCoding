@@ -1,0 +1,25 @@
+Java Swing :
+Java Swing tutorial is a part of Java Foundation Classes (JFC) that is used to create window-based applications. It is built on the top of AWT (Abstract Windowing Toolkit) API and entirely written in java.
+
+Unlike AWT, Java Swing provides platform-independent and lightweight components.
+
+The javax.swing package provides classes for java swing API such as JButton, JTextField, JTextArea, JRadioButton, JCheckbox, JMenu, JColorChooser etc.
+
+Java JFrame
+The javax.swing.JFrame class is a type of container which inherits the java.awt.Frame class. 
+JFrame works like the main window where components like labels, buttons, textfields are added to create a GUI.
+
+setVisible(boolean val) is used, if it is said to be true, then the frame visible.
+setSize(int len,int wid) is to set the size of frame
+setLayout() is used to set the layout for the frame
+add(obj) is used to add objects to the frame
+
+Java JLabel :
+JLabel is a class of java Swing . JLabel is used to display a short string or an image icon. JLabel can display text, image or both . 
+JLabel is only a display of text or image and it cannot get focus . JLabel is inactive to input events such a mouse focus or keyboard focus.
+
+Java JTextField
+It is used to create a text field
+
+Java JButton
+it is used to create a button
