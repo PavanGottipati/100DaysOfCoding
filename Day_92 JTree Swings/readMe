@@ -1,0 +1,10 @@
+Java JTree :
+The JTree class is used to display the tree structured data or hierarchical data. 
+JTree is a complex component. 
+It has a 'root node' at the top most which is a parent for all nodes in the tree. 
+It inherits JComponent class.
+
+DefaultMutableTreeNode :
+DefaultMutableTreeNode provides operations for examining and modifying a node's parent and children and also operations for examining the tree that the node is a part of. 
+A node's tree is the set of all nodes that can be reached by starting at the node and following all the possible links to parents and children.
+
