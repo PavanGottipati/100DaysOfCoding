@@ -1,0 +1,27 @@
+Here, By using Java Swings package, i have created the required objects like frame, text fiels, buttons, radio buttons, scroll pane etc.
+Then I have registered the buttons with ActionListener and also the frame objects implements the ActionListener interface.
+Then if the all details required in Bank registration form are filled, then after clicking submit button, then those are set to one Text Field with correponding text label.
+Then if reset button is pressed, the entered information is cleared and again new form is generated.
+
+Event and Listener (Java Event Handling) :
+==>Changing the state of an object is known as an event. 
+==>For example, click on button, dragging mouse etc. 
+==>The java.awt.event package provides many event classes and Listener interfaces for event handling.
+
+
+Java Event classes and Listener interfaces
+Event Classes	Listener Interfaces
+.....................................................................
+ActionEvent	     <==>       ActionListener
+.....................................................................
+MouseEvent	                 MouseListener and MouseMotionListener
+MouseWheelEvent	             MouseWheelListener
+KeyEvent	                   KeyListener
+ItemEvent	                   ItemListener
+TextEvent	                   TextListener
+AdjustmentEvent	             AdjustmentListener
+WindowEvent	                 WindowListener
+ComponentEvent	             ComponentListener
+ContainerEvent	             ContainerListener
+FocusEvent	                 FocusListener
+.....................................................................
