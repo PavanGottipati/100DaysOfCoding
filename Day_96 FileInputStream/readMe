@@ -1,0 +1,34 @@
+Java FileInputStream Class :
+Java FileInputStream class obtains input bytes from a file. 
+It is used for reading byte-oriented data (streams of raw bytes) such as image data, audio, video etc. You can also read character-stream data.
+
+
+Method	Description :
+int available()	=>It is used to return the estimated number of bytes that can be read from the input stream.
+int read()	=>It is used to read the byte of data from the input stream.
+int read(byte[] b)	=>It is used to read up to b.length bytes of data from the input stream.
+int read(byte[] b, int off, int len)	=>It is used to read up to len bytes of data from the input stream.
+long skip(long x)	=>It is used to skip over and discards x bytes of data from the input stream.
+FileChannel getChannel()	=>It is used to return the unique FileChannel object associated with the file input stream.
+FileDescriptor getFD()	=>It is used to return the FileDescriptor object.
+protected void finalize()	=>It is used to ensure that the close method is call when there is no more reference to the file input stream.
+void close()	=>It is used to closes the stream.
+
+Test case :
+Total Available Bytes: 1235
+First 30 bytes of the file one read() at a time
+import java.io.*;
+class FileI
+Still Available: 1205
+Reading the next 30 with one read(b[])
+P{
+public static void main(St
+
+Still Available: 1175
+Skipping half of remaining bytes with skip()
+Still Available: 588
+Reading 15 into the end of array
+P{
+public statout.println(new
+
+Still Available: 573
