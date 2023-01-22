@@ -1,0 +1,22 @@
+FileOutputStream :
+FileOutputStream is an outputstream for writing data/streams of raw bytes to file or storing data to file. 
+FileOutputStream is a subclass of OutputStream. To write primitive values into a file, we use FileOutputStream class. 
+For writing byte-oriented and character-oriented data, we can use FileOutputStream but for writing character-oriented data, FileWriter is more preferred.
+
+Test Case :
+In the program, we have initialized a String and stored them into byte array by using getBytes() method.
+After that, by using OutputStream class, FileOutputStream class i have created three objects f0, f1 and f2 and opened three files file1, file2 and file3.
+After that, I have written some contents from byte array into the three files by using write().
+After that, I have closed the file by using close().
+
+Contents in file1 :
+Nwi h iefralgo e
+t oet h i ftercuty n a hi u ae.
+
+Contents in file2 :
+Now is the time for all good men
+ to come to the aid of their country
+ and pay their due taxes.
+ 
+ Contents in file3 :
+ nd pay their due taxes.
