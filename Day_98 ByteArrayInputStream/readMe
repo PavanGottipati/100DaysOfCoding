@@ -1,0 +1,33 @@
+ByteArrayInputStream in Java :
+The ByteArrayInputStream class of the java.io package can be used to read an array of input data (in bytes).
+
+It extends the InputStream abstract class.
+
+Methods of ByteArrayInputStream
+The ByteArrayInputStream class provides implementations for different methods present in the InputStream class.
+
+read() Method
+read() - reads the single byte from the array present in the input stream
+read(byte[] array) - reads bytes from the input stream and stores in the specified array
+read(byte[] array, int start, int length) - reads the number of bytes equal to length from the stream and stores in the specified array starting from the position start
+
+TEST CASE 1:
+Enter some string
+pavan
+Converting input string into byte array by using getBytes()
+pavan
+PAVAN
+
+TEST CASE 2 :
+Enter some string
+63362
+Converting input string into byte array by using getBytes()
+63362
+63362
+
+TEST CASE 3 :
+Enter some string
+@32bs%
+Converting input string into byte array by using getBytes()
+@32bs%
+@32BS%
