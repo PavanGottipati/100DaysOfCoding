@@ -1,0 +1,41 @@
+Java FileReader Class :
+***********************
+Java FileReader class is used to read data from the file. It returns data in byte format like FileInputStream class.
+
+It is character-oriented class which is used for file handling in java.
+
+TEST CASE for FileReader :
+import java.io.*;
+class FileRead{
+public static void main(String args[]) throws IOException{
+FileReader fr = new FileReader("FileRead.java");
+BufferedReader br= new BufferedReader(fr);
+String s;
+while((s = br.readLine()) != null) {
+System.out.println(s);
+}
+fr.close();
+}
+}
+
+........................................................................................................................................
+
+Java FileWriter Class :
+***********************
+Java FileWriter class of java.io package is used to write data in character form to file. 
+Java FileWriter class is used to write character-oriented data to a file. 
+It is a character-oriented class that is used for file handling in java.
+
+TEST CASE for FileWriter :
+
+ Contents in file1 :
+ Nwi h iefralgo e
+t oet h i ftercuty n a hi u ae.
+
+Contents in file2 :
+Now is the time for all good men
+ to come to the aid of their country
+ and pay their due taxes.
+ 
+Contents in file3 :
+nd pay their due taxes.
